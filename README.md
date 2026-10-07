@@ -1,56 +1,77 @@
 # excel-assistant
 
-Tro ly Excel nhe — doc / tao / dien form / format / toi uu file `.xlsx`.
-Chi can Python + `openpyxl`, khong can cai Microsoft Excel.
+**AI agent quản lý Excel** — đọc / tạo / **điền dữ liệu vào form mẫu** / format hàng loạt / tối ưu `.xlsx`.
+Đóng gói dưới dạng **pi package**: cài một lệnh là Pi trở thành trợ lý Excel.
 
-Sinh ra de lam viec lap di lap: dien du lieu vao form mau, format bang hang loat,
-chuyen doi CSV <-> XLSX, va giam dung luong file.
+Chỉ cần Python + `openpyxl`, **không cần Microsoft Excel**.
 
-## Cai dat
+## Cài như một AI agent (pi package)
 
 ```bash
 pip install openpyxl
+pi install git:github.com/tranbachthang/excel-assistant
 ```
 
-## Dung
+Sau đó trong Pi, agent tự biết skill `excel-manager` và nhận việc Excel bằng tiếng Việt:
+
+> "đọc form.xlsx, điền tên và ngày vào rồi xuất ketqua.xlsx"
+
+Hoặc gọi thẳng skill:
+
+```text
+/skill:excel-manager tối ưu file big.xlsx
+```
+
+### Chạy như agent riêng (nhẹ, tách khỏi cấu hình Pi cá nhân)
 
 ```bash
-python excel_assistant.py info    book.xlsx          # sheets + kich thuoc
-python excel_assistant.py read    book.xlsx --head 10
-python excel_assistant.py csv2xlsx data.csv out.xlsx
-python excel_assistant.py xlsx2csv book.xlsx out.csv
-python excel_assistant.py beautify book.xlsx         # header dam, vien, auto-width, freeze, filter
-python excel_assistant.py fill    template.xlsx data.json filled.xlsx
-python excel_assistant.py optimize big.xlsx small.xlsx
-python excel_assistant.py demo                       # tu kiem (SELFTEST PASS)
+PI_CODING_AGENT_DIR=$(pwd) pi
 ```
 
-### Dien form
+Pi nạp `AGENTS.md` (persona) + skill trong repo → một agent chỉ chuyên Excel.
 
-Giu nguyen form mau (merge, mau, cong thuc, dropdown) va chi dien gia tri vao o:
+## Dùng trực tiếp (không cần AI)
+
+```bash
+cd skills/excel-manager
+python scripts/excel_assistant.py info    book.xlsx
+python scripts/excel_assistant.py read    book.xlsx --head 10
+python scripts/excel_assistant.py csv2xlsx data.csv out.xlsx
+python scripts/excel_assistant.py xlsx2csv book.xlsx out.csv
+python scripts/excel_assistant.py beautify book.xlsx
+python scripts/excel_assistant.py fill    template.xlsx data.json filled.xlsx
+python scripts/excel_assistant.py optimize big.xlsx small.xlsx
+python scripts/excel_assistant.py demo                      # SELFTEST PASS
+```
+
+### Điền form
+
+Giữ nguyên form mẫu (merge, màu, công thức) và chỉ điền giá trị vào ô:
 
 ```json
-{
-  "Sheet1": { "B2": "Tran Bach Thang", "B3": "07/10/2026", "C5": 4 }
-}
+{ "Sheet1": { "B2": "Tran Bach Thang", "B3": "07/10/2026", "C5": 4 } }
 ```
 
-```bash
-python excel_assistant.py fill template.xlsx data.json out.xlsx
+## Cấu trúc
+
+```text
+excel-assistant/
+├── package.json            # pi package manifest
+├── AGENTS.md               # persona của agent
+├── skills/excel-manager/
+│   ├── SKILL.md            # playbook: điền form, điền từ ảnh, tối ưu
+│   └── scripts/excel_assistant.py
+├── requirements.txt
+└── LICENSE
 ```
 
-## Pham vi
+## Phạm vi
 
-| Lam duoc | Khong lam |
+| Làm được | Không làm |
 |---|---|
-| Doc/ghi `.xlsx`, nhieu sheet | Tinh lai cong thuc (openpyxl khong tinh) |
-| Dien gia tri theo dia chi o | Giu 100% style cua file goc khi `optimize` |
-| Format bang (header, vien, width, freeze, filter) | Macro VBA |
-| CSV <-> XLSX | File `.xls` cu (doi sang `.xlsx` truoc) |
-
-## Ghi chu
-
-- `optimize` ghi lai bang openpyxl -> bo style/part thua, giam dung luong, nhung co the mat vai dinh dang hiem.
-- Khi `fill`, neu template co cong thuc trong o thi gia tri moi se **ghi de** cong thuc do.
+| Đọc/ghi `.xlsx`, nhiều sheet | Tính lại công thức (openpyxl không tính) |
+| Điền giá trị theo địa chỉ ô (giữ form) | Macro VBA |
+| Điền từ ảnh qua OCR (dùng skill `image-reader`) | File `.xls` cũ → đổi `.xlsx` trước |
+| Format bảng, CSV ↔ XLSX, tối ưu dung lượng | |
 
 MIT License.

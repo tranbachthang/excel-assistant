@@ -1,0 +1,11 @@
+{
+  "name": "excel-assistant",
+  "version": "0.1.0",
+  "description": "AI agent quan ly Excel: doc/tao/dien form/format/toi uu .xlsx (pi package)",
+  "keywords": ["pi-package", "excel", "xlsx", "spreadsheet", "openpyxl"],
+  "license": "MIT",
+  "author": "Tran Bach Thang",
+  "pi": {
+    "skills": ["./skills"]
+  }
+}
