@@ -30,6 +30,13 @@ ChayAI.bat
 ```
 `ChayAI.bat` tự đặt `PI_CODING_AGENT_DIR` = thư mục repo → Pi nạp `AGENTS.md` (persona) + 5 agent (`.pi/agents/`) + skill `excel-manager`, **tách khỏi cấu hình Pi cá nhân**.
 
+### Gỡ cài đặt
+
+```cmd
+GoCaiDat.bat
+```
+Gỡ trợ lý AI (pi) + thư viện Python của app. **Có hỏi xác nhận** trước khi gỡ; tuỳ chọn gỡ luôn Node/Git/Python (mặc định giữ lại để không phá máy đã có sẵn).
+
 Lần đầu cần key (xem mục 3). Sau đó vào Pi và ra lệnh bằng tiếng Việt:
 
 > đọc `examples/cong_viec_template.xlsx`, điền công việc hôm nay rồi xuất `ketqua.xlsx`

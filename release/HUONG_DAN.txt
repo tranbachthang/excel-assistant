@@ -49,4 +49,7 @@ LUU Y
   CONG CU AI (tro ly doc/ghi file Excel bang tieng Viet)
 --------------------------------------------------------
 Xem file HUONG_DAN_CAI_AI_AGENT.md trong cung thu muc.
-Tom tat: cai 1 lan bang CaiDat.bat, sau do double-click ChayAI.bat.
+Tom tat:
+  - Cai 1 lan:   CaiDat.bat
+  - Mo tro ly:   ChayAI.bat
+  - Go cai dat:  GoCaiDat.bat   (xoa lai cac phan mem da cai)
