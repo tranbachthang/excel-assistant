@@ -19,16 +19,11 @@ import json
 import os
 import sys
 
-from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
-from openpyxl.utils import get_column_letter
-
-THIN = Side(style="thin", color="999999")
-BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
-HEADER_FILL = PatternFill("solid", fgColor="D9E1F2")
+# openpyxl duoc lazy-import trong tung ham de '--help' tra ve nhanh (khong nap openpyxl).
 
 
 def _open(path):
+    from openpyxl import load_workbook  # lazy import
     if not os.path.isfile(path):
         sys.exit(f"khong thay file: {path}")
     return load_workbook(path)
@@ -53,6 +48,7 @@ def cmd_read(a):
 
 
 def cmd_csv2xlsx(a):
+    from openpyxl import Workbook  # lazy import
     wb = Workbook()
     ws = wb.active
     with open(a.csv, newline="", encoding="utf-8-sig") as f:
@@ -71,6 +67,11 @@ def cmd_xlsx2csv(a):
 
 
 def _beautify_sheet(ws):
+    from openpyxl.styles import Alignment, Border, Font, PatternFill, Side  # lazy import
+    from openpyxl.utils import get_column_letter  # lazy import
+    THIN = Side(style="thin", color="999999")
+    BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
+    HEADER_FILL = PatternFill("solid", fgColor="D9E1F2")
     if ws.max_row < 1:
         return
     for c in ws[1]:
@@ -121,6 +122,7 @@ def cmd_optimize(a):
 
 def cmd_demo(_a):
     import tempfile
+    from openpyxl import Workbook, load_workbook  # lazy import
     tmp = tempfile.mkdtemp()
     form = os.path.join(tmp, "form.xlsx")
     wb = Workbook()

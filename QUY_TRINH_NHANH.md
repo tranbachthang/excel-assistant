@@ -24,6 +24,26 @@ PY="C:/Users/thang/AppData/Local/Microsoft/WindowsApps/python.exe"
 "$PY" skills/excel-manager/scripts/excel_assistant.py fill "template.xlsx" "data.json" "ketqua.xlsx"
 ```
 
+## Case C — Chấm công (gom dòng trùng do nhiều máy + tô vang/đỏ)
+```bash
+"$PY" skills/excel-manager/scripts/chamcong.py "data/chamcong_raw.xlsx" --ma 741046 --out "data/chamcong_741046.xlsx"
+# tuỳ chọn: --tu/--den (khoảng ngày), --nghi "01/09/2026,02/09/2026" (ngày nghỉ lễ), bỏ --ma = xử lý tất cả
+```
+→ Gom 2 dòng cùng ngày (chỉ Vào / chỉ Ra) thành 1, tính lại Tổng giờ + Tổng phút.
+→ Thiếu Vào/Ra → **VÀNG** "Quên chấm công vào/ra". Ngày làm việc không có dòng → **ĐỎ** "Không chấm công".
+
+## Case D — Theo dõi kho (tự tạo sheet ngày từ mẫu 01-09)
+```bash
+"$PY" skills/excel-manager/scripts/theodoikho.py "data/theodoikho.xlsx" --den 30/09/2026
+# bỏ --den = chỉ thêm 1 ngày kế tiếp
+```
+→ Copy mẫu 01-09, cập nhật Ngày + Thứ, cột "Tồn đầu ngày" nối "Tồn cuối ngày" sheet trước (công thức).
+
+## Giao diện cho người dùng cuối
+```bash
+"$PY" skills/excel-manager/scripts/menu.py
+```
+
 ## Verify (bắt buộc, 1 lệnh)
 ```bash
 PYTHONIOENCODING=utf-8 "$PY" skills/excel-manager/scripts/excel_assistant.py read "<file.xlsx>"

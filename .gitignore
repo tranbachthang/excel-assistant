@@ -11,3 +11,6 @@ sessions/
 *.log
 .DS_Store
 models-store.json
+data/
+*.xlsx
+*.xls
