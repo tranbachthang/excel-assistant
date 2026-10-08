@@ -55,6 +55,7 @@ Trợ lý có 5 agent trong `.pi/agents/`. Gọi bằng tool `subagent` với **
 Xem chi tiết ở `QUY_TRINH_NHANH.md`. Tóm tắt:
 
 - Python: `python` (đã cài cùng gói qua `CaiDat.bat`).
+- **Model mặc định KHÔNG đọc ảnh trực tiếp** (deepseek-flash không vision) → đưa ảnh sẽ báo "image will be omitted". Đây không phải lỗi OCR. Muốn lấy dữ liệu từ ảnh → dùng `img2xlsx.py` (RapidOCR), KHÔNG gửi ảnh cho model.
 - Ảnh lạ → `python skills/excel-manager/scripts/img2xlsx.py "<anh>" "<out.xlsx>"` (1 lệnh, tự OCR + dựng bảng).
 - Bảng lặp lại → OCR (`skills/image-reader/scripts/ocr_image.py`) rồi `fill template.xlsx data.json ketqua.xlsx`.
 - Verify: `PYTHONIOENCODING=utf-8 python skills/excel-manager/scripts/excel_assistant.py read "<file>"`.

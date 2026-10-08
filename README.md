@@ -94,6 +94,19 @@ excel-planner → excel-critic (≥8/10) → excel-worker → excel-verifier (�
 - Phân tầng: việc nhỏ (đọc 1 file/sửa 1 ô) làm thẳng; việc vừa/lớn mới chạy pipeline.
 - Gọi agent: tool `subagent` với `agentScope: "both"`. Lịch sử: `.pi/agents/MEMORY.md`.
 
+## 4c. Đọc ảnh: dùng OCR, **KHÔNG gửi ảnh cho model**
+
+- Model mặc định (`deepseek-flash`) **không có vision** → gửi ảnh vào sẽ báo
+  `Current model does not support images. The image will be omitted.`
+  **Đây không phải lỗi OCR** — đừng đi cài `pytesseract`/`tesseract` (không script nào dùng).
+- Lấy dữ liệu từ ảnh = OCR đã cài sẵn:
+  ```bash
+  python skills/excel-manager/scripts/img2xlsx.py "<anh.png>" "<out.xlsx>"
+  ```
+  RapidOCR, ~1-2 giây, tự dựng bảng.
+- Ảnh **chữ viết tay** → OCR sai nhiều; cần chính xác thì đánh máy lại.
+- Muốn model tự đọc ảnh → đổi sang model có vision (OpenAI/Claude/Gemini).
+
 ## 5. Ví dụ có sẵn (`examples/`)
 
 | File | Là gì |

@@ -45,8 +45,9 @@ Lịch sử: mỗi agent ghi 1 dòng vào `.pi/agents/MEMORY.md`.
 ## Quy trình nhanh (ẢNH → Excel)
 
 Đọc `QUY_TRINH_NHANH.md` trước khi làm. Tóm tắt:
-- `PY="C:/Users/thang/AppData/Local/Microsoft/WindowsApps/python.exe"`
+- `PY="python"` (máy nào cũng dùng được; đừng hardcode path máy khác).
 - Ảnh lạ → `"$PY" skills/excel-manager/scripts/img2xlsx.py "<anh>" "<out.xlsx>"` (1 lệnh, tự OCR+dựng bảng)
+- **Model mặc định KHÔNG đọc ảnh trực tiếp** (deepseek-flash không vision) → gửi ảnh sẽ báo "image will be omitted"; đây không phải lỗi OCR. Lấy dữ liệu từ ảnh = dùng `img2xlsx.py` (RapidOCR), không gửi ảnh cho model.
 - Bảng lặp lại → OCR rồi `fill template.xlsx data.json ketqua.xlsx`
 - Verify: `PYTHONIOENCODING=utf-8 "$PY" .../excel_assistant.py read <file>`
-- Mở file: `powershell.exe -NoProfile -Command "Start-Process -FilePath 'C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE' -ArgumentList '<file>'"`
+- Mở file: `powershell.exe -NoProfile -Command "Start-Process -FilePath 'C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE' -ArgumentList '<file>'"``

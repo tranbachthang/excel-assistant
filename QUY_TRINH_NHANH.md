@@ -2,10 +2,19 @@
 
 ## Biến môi trường cố định (dùng 1 lần, khỏi dò lại)
 ```bash
-PY="C:/Users/thang/AppData/Local/Microsoft/WindowsApps/python.exe"
+PY="python"
 ```
 - Luôn thêm `PYTHONIOENCODING=utf-8` khi `read`/in tiếng Việt (nếu không sẽ `UnicodeEncodeError`).
 - OCR dùng **RapidOCR** (~1s) — KHÔNG cần check env lại mỗi lần.
+
+## ⚠️ Model KHÔNG đọc được ảnh trực tiếp (đọc trước khi đưa ảnh)
+
+- Model mặc định `deepseek-flash` **không có vision** → gửi ảnh vào pi sẽ báo
+  `Current model does not support images. The image will be omitted.`
+  **Đây KHÔNG phải lỗi OCR** — đừng đi cài `pytesseract`/`tesseract` (không script nào dùng).
+- Muốn lấy dữ liệu từ ảnh → dùng **OCR** (`img2xlsx.py`, RapidOCR đã cài sẵn), KHÔNG gửi ảnh cho model.
+- OCR **chữ viết tay sai nhiều** ("Lichtingay", "Kchamcony"…) → cần chính xác thì đánh máy lại.
+- Muốn model đọc ảnh trực tiếp → đổi sang model có vision (OpenAI/Claude/Gemini) hoặc gateway OmniRoute.
 
 ## Case A — Bảng mới / ảnh lạ: 1 lệnh dựng tự động
 ```bash
@@ -16,7 +25,7 @@ PY="C:/Users/thang/AppData/Local/Microsoft/WindowsApps/python.exe"
 ## Case B — Bảng lặp lại (BẢNG THEO DÕI CÔNG VIỆC TUẦN): dùng template + fill
 1. OCR lấy text thô:
 ```bash
-"$PY" "C:/Users/thang/.agents/skills/image-reader/scripts/ocr_image.py" "<anh.png>"
+"$PY" "skills/image-reader/scripts/ocr_image.py" "<anh.png>"
 ```
 2. Tôi map text → `data.json` (đúng cột, tách ô bị gộp như `4Hoàn thành` → Số giờ=4, Trạng thái=Hoàn thành).
 3. Fill vào template:

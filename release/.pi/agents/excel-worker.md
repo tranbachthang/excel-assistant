@@ -22,6 +22,7 @@ python skills/excel-manager/scripts/theodoikho.py <file> [--den DD/MM/YYYY]
 3. **Không bịa dữ liệu** — thiếu thì DỪNG và báo, không tự điền giá trị đoán.
 4. **Đường dẫn tuyệt đối** khi báo kết quả.
 5. Lỗi lạ → đọc lại script, không thử mò nhiều lần.
+6. **Ảnh**: KHÔNG gửi ảnh cho model (deepseek-flash không có vision → pi báo "image will be omitted"). Lấy dữ liệu từ ảnh bằng `img2xlsx.py` (RapidOCR đã cài sẵn).
 
 ## Output
 ```

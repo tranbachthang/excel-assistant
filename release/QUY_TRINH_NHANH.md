@@ -7,6 +7,15 @@ PY="python"
 - Luôn thêm `PYTHONIOENCODING=utf-8` khi `read`/in tiếng Việt (nếu không sẽ `UnicodeEncodeError`).
 - OCR dùng **RapidOCR** (~1s) — KHÔNG cần check env lại mỗi lần.
 
+## ⚠️ Model KHÔNG đọc được ảnh trực tiếp (đọc trước khi đưa ảnh)
+
+- Model mặc định `deepseek-flash` **không có vision** → gửi ảnh vào pi sẽ báo
+  `Current model does not support images. The image will be omitted.`
+  **Đây KHÔNG phải lỗi OCR** — đừng đi cài `pytesseract`/`tesseract` (không script nào dùng).
+- Muốn lấy dữ liệu từ ảnh → dùng **OCR** (`img2xlsx.py`, RapidOCR đã cài sẵn), KHÔNG gửi ảnh cho model.
+- OCR **chữ viết tay sai nhiều** ("Lichtingay", "Kchamcony"…) → cần chính xác thì đánh máy lại.
+- Muốn model đọc ảnh trực tiếp → đổi sang model có vision (OpenAI/Claude/Gemini).
+
 ## Case A — Bảng mới / ảnh lạ: 1 lệnh dựng tự động
 ```bash
 "$PY" skills/excel-manager/scripts/img2xlsx.py "<anh.png>" "<out.xlsx>"
