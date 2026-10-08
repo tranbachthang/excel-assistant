@@ -30,6 +30,15 @@ ChayAI.bat
 ```
 `ChayAI.bat` tự đặt `PI_CODING_AGENT_DIR` = thư mục repo → Pi nạp `AGENTS.md` (persona) + 5 agent (`.pi/agents/`) + skill `excel-manager`, **tách khỏi cấu hình Pi cá nhân**.
 
+### Giao diện chat (giống Claude/Gemini)
+
+```cmd
+MoGiaoDien.bat
+```
+Mở giao diện chat trong trình duyệt (`http://127.0.0.1:8765`): sidebar lịch sử hội thoại, gõ tiếng Việt,
+trả lời **stream từng chữ**. Backend gọi `pi --mode json` và đẩy `text_delta` về browser; mỗi cuộc trò chuyện
+lưu riêng trong `.pi/web_sessions/` (không push lên git).
+
 ### Gỡ cài đặt
 
 ```cmd

@@ -26,6 +26,9 @@ chuyển đổi CSV ↔ XLSX, tối ưu dung lượng. Ưu tiên giữ nguyên f
 Dùng skill `excel-manager` (script `skills/excel-manager/scripts/excel_assistant.py`).
 Yêu cầu: `pip install openpyxl`.
 
+**Giao diện chat** (kiểu Claude/Gemini): `MoGiaoDien.bat` → `http://127.0.0.1:8765`
+(`giao_dien.py` + `giao_dien.html`; backend stream `text_delta` từ `pi --mode json`).
+
 ## Pipeline 5 agent (cho việc nhiều bước)
 
 Repo có sẵn 5 agent trong `.pi/agents/` (project scope). Gọi bằng tool `subagent` với **`agentScope: "both"`**.

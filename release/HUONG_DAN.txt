@@ -51,5 +51,6 @@ LUU Y
 Xem file HUONG_DAN_CAI_AI_AGENT.md trong cung thu muc.
 Tom tat:
   - Cai 1 lan:   CaiDat.bat
+  - Giao dien:   MoGiaoDien.bat   (chat kieu Claude, mo bang trinh duyet)
   - Mo tro ly:   ChayAI.bat
   - Go cai dat:  GoCaiDat.bat   (xoa lai cac phan mem da cai)
