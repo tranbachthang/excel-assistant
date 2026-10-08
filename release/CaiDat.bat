@@ -37,10 +37,16 @@ echo [3/6] Dang cai Python...
 set "NPM="
 if exist "C:\Program Files\nodejs\npm.cmd" set "NPM=C:\Program Files\nodejs\npm.cmd"
 if not defined NPM if exist "%LOCALAPPDATA%\Programs\nodejs\npm.cmd" set "NPM=%LOCALAPPDATA%\Programs\nodejs\npm.cmd"
+if not defined NPM if exist "%APPDATA%\npm\npm.cmd" set "NPM=%APPDATA%\npm\npm.cmd"
+if not defined NPM for /f "delims=" %%p in ('where npm 2^>nul') do if not defined NPM set "NPM=%%p"
 
+:: Do Python: PHAI kiem file python.exe TON TAI (thu muc Python3xx co the la tan du / rong)
 set "PYTHON="
-for /d %%d in ("%LOCALAPPDATA%\Programs\Python\Python3*") do set "PYTHON=%%d\python.exe"
-if not defined PYTHON for /d %%d in ("C:\Python3*") do set "PYTHON=%%d\python.exe"
+for /d %%d in ("%LOCALAPPDATA%\Programs\Python\Python3*") do if exist "%%d\python.exe" if not defined PYTHON set "PYTHON=%%d\python.exe"
+if not defined PYTHON for /d %%d in ("C:\Program Files\Python3*") do if exist "%%d\python.exe" if not defined PYTHON set "PYTHON=%%d\python.exe"
+if not defined PYTHON for /d %%d in ("C:\Python3*") do if exist "%%d\python.exe" if not defined PYTHON set "PYTHON=%%d\python.exe"
+if not defined PYTHON if exist "%LOCALAPPDATA%\Microsoft\WindowsApps\python.exe" set "PYTHON=%LOCALAPPDATA%\Microsoft\WindowsApps\python.exe"
+if not defined PYTHON for /f "delims=" %%p in ('where python 2^>nul') do if not defined PYTHON set "PYTHON=%%p"
 
 if not defined NPM (
     echo [!] Chua tim thay npm. Hay KHOI DONG LAI may roi chay lai file nay.
@@ -48,11 +54,22 @@ if not defined NPM (
     exit /b 1
 )
 if not defined PYTHON (
-    echo [!] Chua tim thay Python. Hay KHOI DONG LAI may roi chay lai file nay.
+    echo [!] Khong tim thay Python tren may.
+    echo     Cai Python 3.11+ tai https://www.python.org/downloads/  ^(nho tick "Add python.exe to PATH"^)
+    echo     Roi KHOI DONG LAI may va chay lai file nay.
     pause
     exit /b 1
 )
-echo     OK: tim thay npm va python.
+:: Kiem Python chay duoc that (tranh truong hop file ton tai nhung hong)
+"%PYTHON%" -c "print(1)" >nul 2>nul
+if errorlevel 1 (
+    echo [!] Tim thay "%PYTHON%" nhung chay khong duoc.
+    echo     Cai lai Python 3.11+ tu https://www.python.org/downloads/
+    pause
+    exit /b 1
+)
+echo     OK: npm = %NPM%
+echo     OK: python = %PYTHON%
 
 :: ---- 5. Cai openpyxl ----
 echo [4/6] Dang cai thu vien Excel ^(openpyxl^)...
