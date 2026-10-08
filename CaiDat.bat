@@ -9,26 +9,29 @@ echo   (Neu bao loi quyen: chuot phai file nay - Run as administrator)
 echo ============================================================
 echo.
 
-:: ---- Kiem tra winget ----
-where winget >nul 2>nul
-if errorlevel 1 (
+:: ---- Tim winget: PATH -> alias trong WindowsApps (nhieu may `where` khong thay) ----
+set "WINGET="
+where winget >nul 2>nul && set "WINGET=winget"
+if not defined WINGET if exist "%LOCALAPPDATA%\Microsoft\WindowsApps\winget.exe" set "WINGET=%LOCALAPPDATA%\Microsoft\WindowsApps\winget.exe"
+if not defined WINGET (
     echo [!] May ban chua co winget ^(can Windows 10/11 moi^).
     echo     Neu dung Windows cu, nho Thang ho tro cai tay.
     pause
     exit /b 1
 )
+echo     OK: winget = %WINGET%
 
 :: ---- 1. Cai Node.js ----
 echo [1/6] Dang cai Node.js... ^(co the mat vai phut^)
-winget install --id OpenJS.NodeJS.LTS -e --accept-source-agreements --accept-package-agreements --silent
+"%WINGET%" install --id OpenJS.NodeJS.LTS -e --accept-source-agreements --accept-package-agreements --silent
 
 :: ---- 2. Cai Git ----
 echo [2/6] Dang cai Git for Windows...
-winget install --id Git.Git -e --accept-source-agreements --accept-package-agreements --silent
+"%WINGET%" install --id Git.Git -e --accept-source-agreements --accept-package-agreements --silent
 
 :: ---- 3. Cai Python ----
 echo [3/6] Dang cai Python...
-winget install --id Python.Python.3.12 -e --accept-source-agreements --accept-package-agreements --silent
+"%WINGET%" install --id Python.Python.3.12 -e --accept-source-agreements --accept-package-agreements --silent
 
 :: ---- 4. Tim duong dan npm va python (PATH chua cap nhat trong phien nay) ----
 set "NPM="
