@@ -33,6 +33,14 @@ python scripts/excel_assistant.py <lệnh> ...
 | `optimize <in> <out>` | ghi lại, giảm dung lượng |
 | `demo` | tự kiểm (`SELFTEST PASS`) |
 
+### Ảnh → Excel 1 lệnh (nhanh nhất)
+
+```bash
+python scripts/img2xlsx.py <anh.png> [out.xlsx]
+```
+Tự OCR (RapidOCR ~1s) + dựng bảng: title merge, header đậm+nền+viền, freeze.
+**Lưu ý:** OCR hay gộp ô liền kề (STT+Ngày, Số giờ+Trạng thái) → kiểm tra lại bằng `read`.
+
 Cài trước: `pip install openpyxl`.
 
 ## Quy trình

@@ -1,0 +1,1000 @@
+1    01/01/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Chưa làm    
+2    01/01/2026    Viết báo cáo pentest    Nguyễn Văn An    8    Hoàn thành    chờ review
+3    01/01/2026    Cấu hình VLAN/switch    Võ Thu Dung    4    Hoàn thành    
+4    01/01/2026    Cấu hình VLAN/switch    Nguyễn Văn An    2    Hoàn thành    chờ review
+5    02/01/2026    Viết báo cáo pentest    Đặng Hoàng Em    8    Tạm dừng    
+6    02/01/2026    Dựng lab Packet Tracer    Võ Thu Dung    3    Hoàn thành    
+7    02/01/2026    Đánh giá cấu hình router    Phạm Minh Cường    3    Chưa làm    
+8    02/01/2026    Viết báo cáo pentest    Lê Thị Bình    1    Hoàn thành    ưu tiên
+9    03/01/2026    Cấu hình VLAN/switch    Lê Thị Bình    3    Chưa làm    
+10    03/01/2026    Đánh giá cấu hình router    Phạm Minh Cường    6    Hoàn thành    ưu tiên
+11    03/01/2026    Cấu hình VLAN/switch    Võ Thu Dung    3    Chưa làm    chờ review
+12    03/01/2026    Viết báo cáo pentest    Đặng Hoàng Em    1    Hoàn thành    
+13    04/01/2026    Rà soát log firewall    Trần Bách Thăng    2    Hoàn thành    ưu tiên
+14    04/01/2026    Rà soát log firewall    Phạm Minh Cường    8    Chưa làm    
+15    04/01/2026    Cập nhật tài liệu HTB    Lê Thị Bình    2    Chưa làm    
+16    04/01/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    2    Đang làm    
+17    05/01/2026    Dựng lab Packet Tracer    Phạm Minh Cường    3    Đang làm    
+18    05/01/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    1    Chưa làm    ưu tiên
+19    05/01/2026    Rà soát log firewall    Trần Bách Thăng    2    Chưa làm    
+20    05/01/2026    Vá lỗ hổng CVE    Phạm Minh Cường    4    Tạm dừng    
+21    06/01/2026    Rà soát log firewall    Nguyễn Văn An    2    Chưa làm    chờ review
+22    06/01/2026    Kiểm tra backup    Võ Thu Dung    4    Chưa làm    
+23    06/01/2026    Phân tích mã độc    Võ Thu Dung    4    Hoàn thành    
+24    06/01/2026    Cấu hình VLAN/switch    Nguyễn Văn An    8    Đang làm    ưu tiên
+25    07/01/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    4    Tạm dừng    chờ review
+26    07/01/2026    Dựng lab Packet Tracer    Võ Thu Dung    3    Hoàn thành    
+27    07/01/2026    Vá lỗ hổng CVE    Võ Thu Dung    3    Chưa làm    
+28    07/01/2026    Rà soát log firewall    Phạm Minh Cường    2    Tạm dừng    
+29    08/01/2026    Đánh giá cấu hình router    Đặng Hoàng Em    3    Đang làm    chờ review
+30    08/01/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    3    Đang làm    
+31    08/01/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    6    Hoàn thành    chờ review
+32    08/01/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    1    Hoàn thành    
+33    09/01/2026    Rà soát log firewall    Nguyễn Văn An    1    Đang làm    chờ review
+34    09/01/2026    Cấu hình VLAN/switch    Trần Bách Thăng    8    Tạm dừng    
+35    09/01/2026    Sửa script tự động    Nguyễn Văn An    2    Tạm dừng    chờ review
+36    09/01/2026    Phân tích mã độc    Lê Thị Bình    6    Tạm dừng    
+37    10/01/2026    Sửa script tự động    Đặng Hoàng Em    8    Đang làm    
+38    10/01/2026    Kiểm tra backup    Đặng Hoàng Em    8    Chưa làm    ưu tiên
+39    10/01/2026    Sửa script tự động    Phạm Minh Cường    1    Đang làm    
+40    10/01/2026    Cấu hình VLAN/switch    Lê Thị Bình    1    Đang làm    chờ review
+41    11/01/2026    Viết báo cáo pentest    Trần Bách Thăng    1    Hoàn thành    
+42    11/01/2026    Cấu hình VLAN/switch    Trần Bách Thăng    3    Hoàn thành    chờ review
+43    11/01/2026    Viết báo cáo pentest    Lê Thị Bình    8    Tạm dừng    
+44    11/01/2026    Sửa script tự động    Nguyễn Văn An    8    Tạm dừng    
+45    12/01/2026    Dựng lab Packet Tracer    Phạm Minh Cường    2    Hoàn thành    
+46    12/01/2026    Vá lỗ hổng CVE    Phạm Minh Cường    3    Tạm dừng    ưu tiên
+47    12/01/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    1    Hoàn thành    
+48    12/01/2026    Kiểm tra backup    Đặng Hoàng Em    3    Hoàn thành    
+49    13/01/2026    Viết báo cáo pentest    Nguyễn Văn An    6    Tạm dừng    
+50    13/01/2026    Kiểm tra backup    Nguyễn Văn An    3    Tạm dừng    
+51    13/01/2026    Cấu hình VLAN/switch    Phạm Minh Cường    6    Hoàn thành    
+52    13/01/2026    Vá lỗ hổng CVE    Võ Thu Dung    1    Hoàn thành    
+53    14/01/2026    Phân tích mã độc    Phạm Minh Cường    4    Tạm dừng    
+54    14/01/2026    Kiểm tra backup    Trần Bách Thăng    2    Tạm dừng    
+55    14/01/2026    Kiểm tra backup    Lê Thị Bình    4    Chưa làm    ưu tiên
+56    14/01/2026    Đánh giá cấu hình router    Đặng Hoàng Em    6    Tạm dừng    
+57    15/01/2026    Viết báo cáo pentest    Lê Thị Bình    2    Hoàn thành    chờ review
+58    15/01/2026    Đánh giá cấu hình router    Võ Thu Dung    1    Chưa làm    
+59    15/01/2026    Kiểm thử xâm nhập web    Võ Thu Dung    4    Đang làm    
+60    15/01/2026    Sửa script tự động    Trần Bách Thăng    2    Hoàn thành    chờ review
+61    16/01/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    2    Tạm dừng    
+62    16/01/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    6    Hoàn thành    chờ review
+63    16/01/2026    Cấu hình VLAN/switch    Phạm Minh Cường    8    Chưa làm    
+64    16/01/2026    Viết báo cáo pentest    Đặng Hoàng Em    8    Chưa làm    
+65    17/01/2026    Rà soát log firewall    Phạm Minh Cường    2    Chưa làm    ưu tiên
+66    17/01/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    1    Tạm dừng    chờ review
+67    17/01/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    1    Đang làm    chờ review
+68    17/01/2026    Rà soát log firewall    Nguyễn Văn An    3    Hoàn thành    
+69    18/01/2026    Cập nhật tài liệu HTB    Lê Thị Bình    2    Tạm dừng    chờ review
+70    18/01/2026    Đánh giá cấu hình router    Lê Thị Bình    6    Hoàn thành    chờ review
+71    18/01/2026    Rà soát log firewall    Đặng Hoàng Em    1    Đang làm    
+72    18/01/2026    Cấu hình VLAN/switch    Trần Bách Thăng    8    Đang làm    
+73    19/01/2026    Rà soát log firewall    Võ Thu Dung    2    Chưa làm    
+74    19/01/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    3    Tạm dừng    
+75    19/01/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    8    Tạm dừng    
+76    19/01/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    3    Đang làm    
+77    20/01/2026    Phân tích mã độc    Đặng Hoàng Em    4    Tạm dừng    chờ review
+78    20/01/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    1    Đang làm    chờ review
+79    20/01/2026    Kiểm thử xâm nhập web    Lê Thị Bình    6    Đang làm    ưu tiên
+80    20/01/2026    Phân tích mã độc    Trần Bách Thăng    3    Chưa làm    
+81    21/01/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    8    Đang làm    
+82    21/01/2026    Cập nhật tài liệu HTB    Võ Thu Dung    4    Đang làm    
+83    21/01/2026    Phân tích mã độc    Nguyễn Văn An    4    Hoàn thành    
+84    21/01/2026    Đánh giá cấu hình router    Lê Thị Bình    4    Đang làm    
+85    22/01/2026    Phân tích mã độc    Đặng Hoàng Em    1    Tạm dừng    
+86    22/01/2026    Dựng lab Packet Tracer    Nguyễn Văn An    2    Tạm dừng    
+87    22/01/2026    Rà soát log firewall    Nguyễn Văn An    2    Hoàn thành    
+88    22/01/2026    Kiểm tra backup    Lê Thị Bình    3    Hoàn thành    
+89    23/01/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    6    Tạm dừng    chờ review
+90    23/01/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    1    Chưa làm    
+91    23/01/2026    Họp nhóm kỹ thuật    Lê Thị Bình    1    Hoàn thành    chờ review
+92    23/01/2026    Kiểm tra backup    Lê Thị Bình    8    Chưa làm    ưu tiên
+93    24/01/2026    Họp nhóm kỹ thuật    Võ Thu Dung    1    Tạm dừng    chờ review
+94    24/01/2026    Viết báo cáo pentest    Lê Thị Bình    1    Tạm dừng    
+95    24/01/2026    Sửa script tự động    Võ Thu Dung    8    Đang làm    
+96    24/01/2026    Kiểm tra backup    Trần Bách Thăng    8    Chưa làm    chờ review
+97    25/01/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    1    Chưa làm    chờ review
+98    25/01/2026    Rà soát log firewall    Đặng Hoàng Em    4    Chưa làm    ưu tiên
+99    25/01/2026    Đánh giá cấu hình router    Lê Thị Bình    6    Đang làm    
+100    25/01/2026    Kiểm tra backup    Đặng Hoàng Em    4    Đang làm    chờ review
+101    26/01/2026    Họp nhóm kỹ thuật    Lê Thị Bình    4    Hoàn thành    
+102    26/01/2026    Rà soát log firewall    Nguyễn Văn An    4    Chưa làm    ưu tiên
+103    26/01/2026    Dựng lab Packet Tracer    Phạm Minh Cường    8    Đang làm    chờ review
+104    26/01/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    2    Hoàn thành    
+105    27/01/2026    Sửa script tự động    Đặng Hoàng Em    8    Chưa làm    
+106    27/01/2026    Viết báo cáo pentest    Đặng Hoàng Em    3    Đang làm    
+107    27/01/2026    Phân tích mã độc    Trần Bách Thăng    1    Đang làm    ưu tiên
+108    27/01/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    4    Tạm dừng    chờ review
+109    28/01/2026    Viết báo cáo pentest    Đặng Hoàng Em    8    Tạm dừng    ưu tiên
+110    28/01/2026    Kiểm tra backup    Nguyễn Văn An    2    Hoàn thành    
+111    28/01/2026    Kiểm tra backup    Nguyễn Văn An    2    Tạm dừng    
+112    28/01/2026    Sửa script tự động    Nguyễn Văn An    1    Tạm dừng    
+113    29/01/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    6    Chưa làm    ưu tiên
+114    29/01/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    6    Tạm dừng    chờ review
+115    29/01/2026    Dựng lab Packet Tracer    Nguyễn Văn An    8    Tạm dừng    ưu tiên
+116    29/01/2026    Rà soát log firewall    Nguyễn Văn An    8    Chưa làm    chờ review
+117    30/01/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    2    Chưa làm    ưu tiên
+118    30/01/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    3    Đang làm    
+119    30/01/2026    Cập nhật tài liệu HTB    Lê Thị Bình    6    Hoàn thành    
+120    30/01/2026    Phân tích mã độc    Nguyễn Văn An    4    Đang làm    
+121    31/01/2026    Cấu hình VLAN/switch    Phạm Minh Cường    4    Chưa làm    chờ review
+122    31/01/2026    Dựng lab Packet Tracer    Phạm Minh Cường    1    Đang làm    ưu tiên
+123    31/01/2026    Kiểm tra backup    Võ Thu Dung    8    Hoàn thành    chờ review
+124    31/01/2026    Kiểm tra backup    Phạm Minh Cường    1    Chưa làm    
+125    01/02/2026    Kiểm tra backup    Phạm Minh Cường    6    Đang làm    ưu tiên
+126    01/02/2026    Viết báo cáo pentest    Lê Thị Bình    4    Tạm dừng    
+127    01/02/2026    Kiểm tra backup    Lê Thị Bình    8    Tạm dừng    
+128    01/02/2026    Dựng lab Packet Tracer    Nguyễn Văn An    6    Hoàn thành    ưu tiên
+129    02/02/2026    Họp nhóm kỹ thuật    Võ Thu Dung    8    Hoàn thành    
+130    02/02/2026    Vá lỗ hổng CVE    Phạm Minh Cường    2    Tạm dừng    
+131    02/02/2026    Kiểm thử xâm nhập web    Lê Thị Bình    4    Chưa làm    
+132    02/02/2026    Dựng lab Packet Tracer    Lê Thị Bình    3    Tạm dừng    
+133    03/02/2026    Kiểm tra backup    Lê Thị Bình    1    Tạm dừng    
+134    03/02/2026    Đánh giá cấu hình router    Võ Thu Dung    1    Chưa làm    
+135    03/02/2026    Vá lỗ hổng CVE    Trần Bách Thăng    8    Hoàn thành    
+136    03/02/2026    Viết báo cáo pentest    Nguyễn Văn An    1    Đang làm    
+137    04/02/2026    Phân tích mã độc    Phạm Minh Cường    8    Hoàn thành    chờ review
+138    04/02/2026    Viết báo cáo pentest    Phạm Minh Cường    8    Chưa làm    
+139    04/02/2026    Phân tích mã độc    Võ Thu Dung    6    Hoàn thành    
+140    04/02/2026    Rà soát log firewall    Trần Bách Thăng    6    Hoàn thành    
+141    05/02/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    4    Tạm dừng    
+142    05/02/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Đang làm    
+143    05/02/2026    Đánh giá cấu hình router    Lê Thị Bình    8    Hoàn thành    chờ review
+144    05/02/2026    Kiểm thử xâm nhập web    Lê Thị Bình    6    Tạm dừng    
+145    06/02/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Chưa làm    
+146    06/02/2026    Kiểm tra backup    Phạm Minh Cường    1    Tạm dừng    
+147    06/02/2026    Vá lỗ hổng CVE    Phạm Minh Cường    8    Đang làm    ưu tiên
+148    06/02/2026    Phân tích mã độc    Đặng Hoàng Em    6    Chưa làm    chờ review
+149    07/02/2026    Sửa script tự động    Phạm Minh Cường    4    Tạm dừng    chờ review
+150    07/02/2026    Rà soát log firewall    Lê Thị Bình    2    Hoàn thành    
+151    07/02/2026    Dựng lab Packet Tracer    Nguyễn Văn An    4    Tạm dừng    
+152    07/02/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    3    Đang làm    ưu tiên
+153    08/02/2026    Viết báo cáo pentest    Lê Thị Bình    3    Chưa làm    
+154    08/02/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    3    Hoàn thành    chờ review
+155    08/02/2026    Viết báo cáo pentest    Trần Bách Thăng    2    Tạm dừng    ưu tiên
+156    08/02/2026    Sửa script tự động    Nguyễn Văn An    8    Tạm dừng    ưu tiên
+157    09/02/2026    Dựng lab Packet Tracer    Trần Bách Thăng    1    Chưa làm    
+158    09/02/2026    Kiểm tra backup    Đặng Hoàng Em    2    Chưa làm    chờ review
+159    09/02/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    6    Chưa làm    ưu tiên
+160    09/02/2026    Đánh giá cấu hình router    Võ Thu Dung    3    Chưa làm    ưu tiên
+161    10/02/2026    Rà soát log firewall    Lê Thị Bình    3    Đang làm    
+162    10/02/2026    Đánh giá cấu hình router    Nguyễn Văn An    3    Hoàn thành    chờ review
+163    10/02/2026    Đánh giá cấu hình router    Nguyễn Văn An    2    Đang làm    ưu tiên
+164    10/02/2026    Rà soát log firewall    Đặng Hoàng Em    6    Chưa làm    
+165    11/02/2026    Viết báo cáo pentest    Lê Thị Bình    2    Chưa làm    
+166    11/02/2026    Rà soát log firewall    Trần Bách Thăng    8    Đang làm    
+167    11/02/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    6    Chưa làm    
+168    11/02/2026    Vá lỗ hổng CVE    Phạm Minh Cường    1    Hoàn thành    chờ review
+169    12/02/2026    Rà soát log firewall    Phạm Minh Cường    4    Tạm dừng    
+170    12/02/2026    Phân tích mã độc    Trần Bách Thăng    3    Tạm dừng    
+171    12/02/2026    Cấu hình VLAN/switch    Phạm Minh Cường    4    Hoàn thành    chờ review
+172    12/02/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    1    Đang làm    
+173    13/02/2026    Họp nhóm kỹ thuật    Lê Thị Bình    1    Đang làm    
+174    13/02/2026    Sửa script tự động    Phạm Minh Cường    6    Đang làm    chờ review
+175    13/02/2026    Kiểm tra backup    Phạm Minh Cường    4    Chưa làm    chờ review
+176    13/02/2026    Kiểm tra backup    Lê Thị Bình    6    Hoàn thành    chờ review
+177    14/02/2026    Đánh giá cấu hình router    Trần Bách Thăng    2    Đang làm    
+178    14/02/2026    Vá lỗ hổng CVE    Trần Bách Thăng    2    Đang làm    
+179    14/02/2026    Sửa script tự động    Trần Bách Thăng    2    Hoàn thành    ưu tiên
+180    14/02/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    6    Tạm dừng    
+181    15/02/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    3    Chưa làm    ưu tiên
+182    15/02/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    2    Chưa làm    chờ review
+183    15/02/2026    Vá lỗ hổng CVE    Nguyễn Văn An    4    Hoàn thành    chờ review
+184    15/02/2026    Viết báo cáo pentest    Đặng Hoàng Em    2    Chưa làm    
+185    16/02/2026    Cấu hình VLAN/switch    Trần Bách Thăng    2    Chưa làm    chờ review
+186    16/02/2026    Đánh giá cấu hình router    Võ Thu Dung    3    Tạm dừng    
+187    16/02/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    3    Tạm dừng    
+188    16/02/2026    Sửa script tự động    Võ Thu Dung    4    Tạm dừng    
+189    17/02/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    4    Chưa làm    chờ review
+190    17/02/2026    Rà soát log firewall    Trần Bách Thăng    1    Đang làm    chờ review
+191    17/02/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    8    Chưa làm    chờ review
+192    17/02/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    4    Tạm dừng    
+193    18/02/2026    Phân tích mã độc    Võ Thu Dung    4    Tạm dừng    
+194    18/02/2026    Dựng lab Packet Tracer    Lê Thị Bình    4    Chưa làm    
+195    18/02/2026    Vá lỗ hổng CVE    Trần Bách Thăng    2    Chưa làm    ưu tiên
+196    18/02/2026    Đánh giá cấu hình router    Phạm Minh Cường    3    Tạm dừng    chờ review
+197    19/02/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    1    Chưa làm    
+198    19/02/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    4    Hoàn thành    chờ review
+199    19/02/2026    Dựng lab Packet Tracer    Phạm Minh Cường    1    Đang làm    chờ review
+200    19/02/2026    Cập nhật tài liệu HTB    Võ Thu Dung    4    Tạm dừng    
+201    20/02/2026    Viết báo cáo pentest    Lê Thị Bình    6    Đang làm    
+202    20/02/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    4    Hoàn thành    
+203    20/02/2026    Vá lỗ hổng CVE    Võ Thu Dung    2    Đang làm    
+204    20/02/2026    Sửa script tự động    Trần Bách Thăng    6    Tạm dừng    
+205    21/02/2026    Viết báo cáo pentest    Trần Bách Thăng    4    Hoàn thành    
+206    21/02/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    3    Chưa làm    ưu tiên
+207    21/02/2026    Dựng lab Packet Tracer    Phạm Minh Cường    2    Tạm dừng    chờ review
+208    21/02/2026    Phân tích mã độc    Phạm Minh Cường    2    Đang làm    
+209    22/02/2026    Rà soát log firewall    Phạm Minh Cường    3    Chưa làm    
+210    22/02/2026    Rà soát log firewall    Đặng Hoàng Em    3    Tạm dừng    
+211    22/02/2026    Dựng lab Packet Tracer    Võ Thu Dung    4    Chưa làm    
+212    22/02/2026    Sửa script tự động    Võ Thu Dung    4    Tạm dừng    
+213    23/02/2026    Viết báo cáo pentest    Đặng Hoàng Em    2    Tạm dừng    
+214    23/02/2026    Kiểm tra backup    Trần Bách Thăng    3    Tạm dừng    ưu tiên
+215    23/02/2026    Kiểm tra backup    Đặng Hoàng Em    8    Đang làm    ưu tiên
+216    23/02/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    6    Chưa làm    
+217    24/02/2026    Dựng lab Packet Tracer    Trần Bách Thăng    6    Tạm dừng    
+218    24/02/2026    Đánh giá cấu hình router    Nguyễn Văn An    4    Đang làm    
+219    24/02/2026    Dựng lab Packet Tracer    Lê Thị Bình    3    Tạm dừng    
+220    24/02/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    6    Tạm dừng    
+221    25/02/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    4    Hoàn thành    chờ review
+222    25/02/2026    Cấu hình VLAN/switch    Nguyễn Văn An    8    Chưa làm    
+223    25/02/2026    Đánh giá cấu hình router    Trần Bách Thăng    4    Hoàn thành    
+224    25/02/2026    Dựng lab Packet Tracer    Nguyễn Văn An    8    Chưa làm    
+225    26/02/2026    Kiểm thử xâm nhập web    Lê Thị Bình    1    Chưa làm    
+226    26/02/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    2    Đang làm    chờ review
+227    26/02/2026    Kiểm tra backup    Võ Thu Dung    8    Đang làm    
+228    26/02/2026    Phân tích mã độc    Trần Bách Thăng    6    Tạm dừng    chờ review
+229    27/02/2026    Vá lỗ hổng CVE    Nguyễn Văn An    4    Đang làm    
+230    27/02/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    3    Tạm dừng    
+231    27/02/2026    Vá lỗ hổng CVE    Trần Bách Thăng    4    Chưa làm    chờ review
+232    27/02/2026    Phân tích mã độc    Trần Bách Thăng    4    Chưa làm    chờ review
+233    28/02/2026    Rà soát log firewall    Đặng Hoàng Em    4    Chưa làm    ưu tiên
+234    28/02/2026    Rà soát log firewall    Nguyễn Văn An    4    Tạm dừng    
+235    28/02/2026    Viết báo cáo pentest    Phạm Minh Cường    6    Chưa làm    chờ review
+236    28/02/2026    Rà soát log firewall    Đặng Hoàng Em    3    Hoàn thành    ưu tiên
+237    01/03/2026    Rà soát log firewall    Trần Bách Thăng    6    Hoàn thành    chờ review
+238    01/03/2026    Đánh giá cấu hình router    Phạm Minh Cường    3    Đang làm    chờ review
+239    01/03/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    8    Đang làm    chờ review
+240    01/03/2026    Rà soát log firewall    Đặng Hoàng Em    8    Đang làm    
+241    02/03/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    1    Chưa làm    ưu tiên
+242    02/03/2026    Kiểm thử xâm nhập web    Võ Thu Dung    3    Đang làm    
+243    02/03/2026    Rà soát log firewall    Lê Thị Bình    8    Tạm dừng    
+244    02/03/2026    Viết báo cáo pentest    Nguyễn Văn An    6    Chưa làm    chờ review
+245    03/03/2026    Sửa script tự động    Lê Thị Bình    2    Chưa làm    ưu tiên
+246    03/03/2026    Rà soát log firewall    Đặng Hoàng Em    3    Hoàn thành    ưu tiên
+247    03/03/2026    Cấu hình VLAN/switch    Nguyễn Văn An    2    Tạm dừng    chờ review
+248    03/03/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    4    Hoàn thành    
+249    04/03/2026    Sửa script tự động    Trần Bách Thăng    4    Chưa làm    
+250    04/03/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    8    Chưa làm    
+251    04/03/2026    Vá lỗ hổng CVE    Nguyễn Văn An    4    Hoàn thành    chờ review
+252    04/03/2026    Sửa script tự động    Lê Thị Bình    6    Đang làm    
+253    05/03/2026    Vá lỗ hổng CVE    Phạm Minh Cường    8    Chưa làm    ưu tiên
+254    05/03/2026    Cấu hình VLAN/switch    Nguyễn Văn An    1    Hoàn thành    
+255    05/03/2026    Dựng lab Packet Tracer    Trần Bách Thăng    1    Đang làm    chờ review
+256    05/03/2026    Phân tích mã độc    Phạm Minh Cường    4    Chưa làm    chờ review
+257    06/03/2026    Kiểm tra backup    Võ Thu Dung    8    Đang làm    ưu tiên
+258    06/03/2026    Vá lỗ hổng CVE    Trần Bách Thăng    4    Tạm dừng    
+259    06/03/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    3    Đang làm    ưu tiên
+260    06/03/2026    Dựng lab Packet Tracer    Nguyễn Văn An    3    Hoàn thành    
+261    07/03/2026    Sửa script tự động    Đặng Hoàng Em    3    Hoàn thành    ưu tiên
+262    07/03/2026    Rà soát log firewall    Nguyễn Văn An    1    Tạm dừng    
+263    07/03/2026    Vá lỗ hổng CVE    Nguyễn Văn An    8    Hoàn thành    
+264    07/03/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    2    Đang làm    
+265    08/03/2026    Sửa script tự động    Nguyễn Văn An    6    Đang làm    
+266    08/03/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    6    Hoàn thành    
+267    08/03/2026    Phân tích mã độc    Nguyễn Văn An    6    Chưa làm    
+268    08/03/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    1    Đang làm    
+269    09/03/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    6    Chưa làm    
+270    09/03/2026    Phân tích mã độc    Lê Thị Bình    1    Đang làm    ưu tiên
+271    09/03/2026    Sửa script tự động    Trần Bách Thăng    8    Hoàn thành    ưu tiên
+272    09/03/2026    Dựng lab Packet Tracer    Lê Thị Bình    6    Hoàn thành    ưu tiên
+273    10/03/2026    Sửa script tự động    Nguyễn Văn An    6    Hoàn thành    chờ review
+274    10/03/2026    Rà soát log firewall    Phạm Minh Cường    8    Hoàn thành    
+275    10/03/2026    Dựng lab Packet Tracer    Phạm Minh Cường    4    Hoàn thành    ưu tiên
+276    10/03/2026    Đánh giá cấu hình router    Phạm Minh Cường    1    Hoàn thành    
+277    11/03/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    1    Đang làm    
+278    11/03/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    6    Chưa làm    ưu tiên
+279    11/03/2026    Họp nhóm kỹ thuật    Võ Thu Dung    3    Tạm dừng    chờ review
+280    11/03/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    1    Hoàn thành    chờ review
+281    12/03/2026    Đánh giá cấu hình router    Nguyễn Văn An    4    Tạm dừng    
+282    12/03/2026    Kiểm tra backup    Lê Thị Bình    4    Tạm dừng    ưu tiên
+283    12/03/2026    Đánh giá cấu hình router    Trần Bách Thăng    3    Tạm dừng    
+284    12/03/2026    Vá lỗ hổng CVE    Lê Thị Bình    3    Đang làm    ưu tiên
+285    13/03/2026    Cấu hình VLAN/switch    Trần Bách Thăng    1    Hoàn thành    ưu tiên
+286    13/03/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    8    Chưa làm    
+287    13/03/2026    Sửa script tự động    Trần Bách Thăng    6    Chưa làm    
+288    13/03/2026    Kiểm tra backup    Lê Thị Bình    8    Tạm dừng    
+289    14/03/2026    Rà soát log firewall    Võ Thu Dung    3    Chưa làm    
+290    14/03/2026    Họp nhóm kỹ thuật    Võ Thu Dung    2    Đang làm    ưu tiên
+291    14/03/2026    Viết báo cáo pentest    Trần Bách Thăng    3    Chưa làm    
+292    14/03/2026    Rà soát log firewall    Võ Thu Dung    2    Tạm dừng    chờ review
+293    15/03/2026    Họp nhóm kỹ thuật    Võ Thu Dung    8    Hoàn thành    chờ review
+294    15/03/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    3    Hoàn thành    
+295    15/03/2026    Rà soát log firewall    Đặng Hoàng Em    3    Chưa làm    
+296    15/03/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    2    Tạm dừng    
+297    16/03/2026    Phân tích mã độc    Đặng Hoàng Em    8    Hoàn thành    
+298    16/03/2026    Đánh giá cấu hình router    Võ Thu Dung    2    Tạm dừng    ưu tiên
+299    16/03/2026    Dựng lab Packet Tracer    Lê Thị Bình    2    Chưa làm    
+300    16/03/2026    Đánh giá cấu hình router    Lê Thị Bình    6    Hoàn thành    
+301    17/03/2026    Phân tích mã độc    Nguyễn Văn An    6    Hoàn thành    
+302    17/03/2026    Rà soát log firewall    Phạm Minh Cường    8    Tạm dừng    ưu tiên
+303    17/03/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    4    Chưa làm    
+304    17/03/2026    Sửa script tự động    Trần Bách Thăng    3    Tạm dừng    
+305    18/03/2026    Rà soát log firewall    Đặng Hoàng Em    8    Tạm dừng    chờ review
+306    18/03/2026    Vá lỗ hổng CVE    Lê Thị Bình    1    Đang làm    ưu tiên
+307    18/03/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    1    Đang làm    
+308    18/03/2026    Viết báo cáo pentest    Nguyễn Văn An    3    Chưa làm    
+309    19/03/2026    Cấu hình VLAN/switch    Trần Bách Thăng    4    Tạm dừng    
+310    19/03/2026    Phân tích mã độc    Phạm Minh Cường    6    Đang làm    chờ review
+311    19/03/2026    Sửa script tự động    Đặng Hoàng Em    3    Hoàn thành    ưu tiên
+312    19/03/2026    Đánh giá cấu hình router    Trần Bách Thăng    4    Hoàn thành    ưu tiên
+313    20/03/2026    Cấu hình VLAN/switch    Lê Thị Bình    6    Tạm dừng    chờ review
+314    20/03/2026    Kiểm tra backup    Đặng Hoàng Em    8    Tạm dừng    
+315    20/03/2026    Cấu hình VLAN/switch    Phạm Minh Cường    1    Chưa làm    
+316    20/03/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    8    Chưa làm    
+317    21/03/2026    Kiểm tra backup    Trần Bách Thăng    2    Tạm dừng    chờ review
+318    21/03/2026    Kiểm tra backup    Võ Thu Dung    1    Tạm dừng    
+319    21/03/2026    Đánh giá cấu hình router    Lê Thị Bình    2    Chưa làm    
+320    21/03/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Hoàn thành    chờ review
+321    22/03/2026    Sửa script tự động    Nguyễn Văn An    3    Chưa làm    
+322    22/03/2026    Viết báo cáo pentest    Trần Bách Thăng    2    Chưa làm    
+323    22/03/2026    Phân tích mã độc    Võ Thu Dung    2    Hoàn thành    
+324    22/03/2026    Vá lỗ hổng CVE    Phạm Minh Cường    4    Tạm dừng    chờ review
+325    23/03/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    6    Chưa làm    
+326    23/03/2026    Phân tích mã độc    Phạm Minh Cường    1    Tạm dừng    ưu tiên
+327    23/03/2026    Vá lỗ hổng CVE    Lê Thị Bình    3    Hoàn thành    
+328    23/03/2026    Sửa script tự động    Trần Bách Thăng    3    Tạm dừng    ưu tiên
+329    24/03/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    3    Chưa làm    
+330    24/03/2026    Vá lỗ hổng CVE    Trần Bách Thăng    6    Tạm dừng    ưu tiên
+331    24/03/2026    Họp nhóm kỹ thuật    Võ Thu Dung    8    Hoàn thành    ưu tiên
+332    24/03/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    2    Chưa làm    chờ review
+333    25/03/2026    Dựng lab Packet Tracer    Võ Thu Dung    2    Hoàn thành    ưu tiên
+334    25/03/2026    Cấu hình VLAN/switch    Lê Thị Bình    8    Hoàn thành    chờ review
+335    25/03/2026    Vá lỗ hổng CVE    Nguyễn Văn An    1    Đang làm    ưu tiên
+336    25/03/2026    Dựng lab Packet Tracer    Võ Thu Dung    6    Đang làm    
+337    26/03/2026    Cập nhật tài liệu HTB    Lê Thị Bình    4    Tạm dừng    
+338    26/03/2026    Vá lỗ hổng CVE    Võ Thu Dung    1    Chưa làm    
+339    26/03/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    6    Tạm dừng    
+340    26/03/2026    Rà soát log firewall    Đặng Hoàng Em    8    Đang làm    
+341    27/03/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Đang làm    
+342    27/03/2026    Rà soát log firewall    Đặng Hoàng Em    8    Tạm dừng    
+343    27/03/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    1    Chưa làm    chờ review
+344    27/03/2026    Kiểm tra backup    Đặng Hoàng Em    3    Đang làm    chờ review
+345    28/03/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    8    Tạm dừng    chờ review
+346    28/03/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    3    Chưa làm    
+347    28/03/2026    Viết báo cáo pentest    Lê Thị Bình    4    Đang làm    
+348    28/03/2026    Phân tích mã độc    Nguyễn Văn An    1    Chưa làm    
+349    29/03/2026    Sửa script tự động    Võ Thu Dung    8    Hoàn thành    
+350    29/03/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    6    Tạm dừng    
+351    29/03/2026    Phân tích mã độc    Nguyễn Văn An    8    Đang làm    ưu tiên
+352    29/03/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    3    Đang làm    ưu tiên
+353    30/03/2026    Họp nhóm kỹ thuật    Lê Thị Bình    8    Tạm dừng    
+354    30/03/2026    Sửa script tự động    Nguyễn Văn An    3    Tạm dừng    
+355    30/03/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    6    Tạm dừng    ưu tiên
+356    30/03/2026    Rà soát log firewall    Phạm Minh Cường    6    Tạm dừng    
+357    31/03/2026    Viết báo cáo pentest    Võ Thu Dung    2    Chưa làm    
+358    31/03/2026    Vá lỗ hổng CVE    Phạm Minh Cường    3    Hoàn thành    chờ review
+359    31/03/2026    Cấu hình VLAN/switch    Lê Thị Bình    1    Đang làm    
+360    31/03/2026    Dựng lab Packet Tracer    Võ Thu Dung    2    Tạm dừng    
+361    01/04/2026    Viết báo cáo pentest    Phạm Minh Cường    3    Hoàn thành    ưu tiên
+362    01/04/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    6    Chưa làm    
+363    01/04/2026    Kiểm tra backup    Trần Bách Thăng    3    Đang làm    
+364    01/04/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    8    Chưa làm    
+365    02/04/2026    Phân tích mã độc    Trần Bách Thăng    3    Tạm dừng    
+366    02/04/2026    Đánh giá cấu hình router    Phạm Minh Cường    4    Hoàn thành    
+367    02/04/2026    Kiểm thử xâm nhập web    Lê Thị Bình    2    Đang làm    chờ review
+368    02/04/2026    Đánh giá cấu hình router    Võ Thu Dung    6    Tạm dừng    
+369    03/04/2026    Rà soát log firewall    Nguyễn Văn An    3    Hoàn thành    
+370    03/04/2026    Viết báo cáo pentest    Phạm Minh Cường    8    Tạm dừng    
+371    03/04/2026    Cấu hình VLAN/switch    Phạm Minh Cường    6    Hoàn thành    chờ review
+372    03/04/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    8    Đang làm    
+373    04/04/2026    Kiểm tra backup    Trần Bách Thăng    6    Chưa làm    
+374    04/04/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    2    Hoàn thành    chờ review
+375    04/04/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    6    Hoàn thành    ưu tiên
+376    04/04/2026    Dựng lab Packet Tracer    Trần Bách Thăng    8    Tạm dừng    
+377    05/04/2026    Rà soát log firewall    Đặng Hoàng Em    1    Chưa làm    
+378    05/04/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    8    Hoàn thành    chờ review
+379    05/04/2026    Đánh giá cấu hình router    Lê Thị Bình    2    Hoàn thành    
+380    05/04/2026    Sửa script tự động    Lê Thị Bình    8    Đang làm    ưu tiên
+381    06/04/2026    Đánh giá cấu hình router    Phạm Minh Cường    8    Đang làm    
+382    06/04/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    4    Hoàn thành    
+383    06/04/2026    Viết báo cáo pentest    Trần Bách Thăng    2    Hoàn thành    
+384    06/04/2026    Rà soát log firewall    Võ Thu Dung    4    Tạm dừng    
+385    07/04/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    2    Chưa làm    
+386    07/04/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    3    Chưa làm    
+387    07/04/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    4    Tạm dừng    ưu tiên
+388    07/04/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    4    Tạm dừng    
+389    08/04/2026    Sửa script tự động    Lê Thị Bình    1    Tạm dừng    
+390    08/04/2026    Kiểm tra backup    Võ Thu Dung    2    Chưa làm    
+391    08/04/2026    Cấu hình VLAN/switch    Trần Bách Thăng    3    Chưa làm    
+392    08/04/2026    Dựng lab Packet Tracer    Võ Thu Dung    8    Tạm dừng    
+393    09/04/2026    Đánh giá cấu hình router    Phạm Minh Cường    3    Tạm dừng    
+394    09/04/2026    Đánh giá cấu hình router    Lê Thị Bình    6    Tạm dừng    
+395    09/04/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Tạm dừng    
+396    09/04/2026    Sửa script tự động    Đặng Hoàng Em    8    Đang làm    
+397    10/04/2026    Phân tích mã độc    Võ Thu Dung    8    Tạm dừng    
+398    10/04/2026    Phân tích mã độc    Trần Bách Thăng    2    Chưa làm    
+399    10/04/2026    Kiểm tra backup    Võ Thu Dung    1    Đang làm    ưu tiên
+400    10/04/2026    Cập nhật tài liệu HTB    Lê Thị Bình    4    Hoàn thành    chờ review
+401    11/04/2026    Phân tích mã độc    Võ Thu Dung    3    Tạm dừng    
+402    11/04/2026    Vá lỗ hổng CVE    Lê Thị Bình    2    Hoàn thành    
+403    11/04/2026    Đánh giá cấu hình router    Nguyễn Văn An    4    Tạm dừng    chờ review
+404    11/04/2026    Cấu hình VLAN/switch    Lê Thị Bình    3    Tạm dừng    
+405    12/04/2026    Họp nhóm kỹ thuật    Lê Thị Bình    8    Tạm dừng    
+406    12/04/2026    Cấu hình VLAN/switch    Nguyễn Văn An    1    Tạm dừng    
+407    12/04/2026    Đánh giá cấu hình router    Phạm Minh Cường    1    Chưa làm    
+408    12/04/2026    Đánh giá cấu hình router    Trần Bách Thăng    6    Chưa làm    
+409    13/04/2026    Phân tích mã độc    Đặng Hoàng Em    8    Đang làm    
+410    13/04/2026    Sửa script tự động    Nguyễn Văn An    1    Đang làm    
+411    13/04/2026    Viết báo cáo pentest    Phạm Minh Cường    1    Chưa làm    chờ review
+412    13/04/2026    Họp nhóm kỹ thuật    Lê Thị Bình    4    Đang làm    chờ review
+413    14/04/2026    Cấu hình VLAN/switch    Trần Bách Thăng    3    Tạm dừng    ưu tiên
+414    14/04/2026    Sửa script tự động    Phạm Minh Cường    4    Hoàn thành    
+415    14/04/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    1    Tạm dừng    ưu tiên
+416    14/04/2026    Vá lỗ hổng CVE    Võ Thu Dung    3    Đang làm    chờ review
+417    15/04/2026    Vá lỗ hổng CVE    Võ Thu Dung    2    Đang làm    ưu tiên
+418    15/04/2026    Sửa script tự động    Trần Bách Thăng    1    Đang làm    
+419    15/04/2026    Phân tích mã độc    Nguyễn Văn An    3    Đang làm    
+420    15/04/2026    Sửa script tự động    Lê Thị Bình    1    Chưa làm    
+421    16/04/2026    Vá lỗ hổng CVE    Võ Thu Dung    3    Đang làm    
+422    16/04/2026    Họp nhóm kỹ thuật    Võ Thu Dung    1    Đang làm    chờ review
+423    16/04/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    2    Chưa làm    chờ review
+424    16/04/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    1    Hoàn thành    chờ review
+425    17/04/2026    Rà soát log firewall    Đặng Hoàng Em    2    Tạm dừng    chờ review
+426    17/04/2026    Vá lỗ hổng CVE    Trần Bách Thăng    4    Chưa làm    
+427    17/04/2026    Dựng lab Packet Tracer    Nguyễn Văn An    8    Tạm dừng    
+428    17/04/2026    Dựng lab Packet Tracer    Trần Bách Thăng    8    Hoàn thành    
+429    18/04/2026    Dựng lab Packet Tracer    Phạm Minh Cường    4    Tạm dừng    
+430    18/04/2026    Cập nhật tài liệu HTB    Võ Thu Dung    2    Chưa làm    
+431    18/04/2026    Đánh giá cấu hình router    Lê Thị Bình    4    Đang làm    
+432    18/04/2026    Sửa script tự động    Võ Thu Dung    1    Chưa làm    
+433    19/04/2026    Dựng lab Packet Tracer    Trần Bách Thăng    3    Tạm dừng    
+434    19/04/2026    Phân tích mã độc    Trần Bách Thăng    1    Chưa làm    ưu tiên
+435    19/04/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    2    Đang làm    
+436    19/04/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    3    Đang làm    
+437    20/04/2026    Dựng lab Packet Tracer    Võ Thu Dung    4    Tạm dừng    
+438    20/04/2026    Dựng lab Packet Tracer    Trần Bách Thăng    1    Tạm dừng    chờ review
+439    20/04/2026    Dựng lab Packet Tracer    Nguyễn Văn An    2    Chưa làm    
+440    20/04/2026    Kiểm thử xâm nhập web    Lê Thị Bình    4    Tạm dừng    
+441    21/04/2026    Sửa script tự động    Trần Bách Thăng    1    Tạm dừng    
+442    21/04/2026    Rà soát log firewall    Đặng Hoàng Em    3    Tạm dừng    
+443    21/04/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    1    Đang làm    
+444    21/04/2026    Sửa script tự động    Lê Thị Bình    1    Tạm dừng    chờ review
+445    22/04/2026    Dựng lab Packet Tracer    Võ Thu Dung    3    Hoàn thành    
+446    22/04/2026    Cấu hình VLAN/switch    Phạm Minh Cường    3    Chưa làm    chờ review
+447    22/04/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    2    Tạm dừng    chờ review
+448    22/04/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    1    Đang làm    
+449    23/04/2026    Dựng lab Packet Tracer    Võ Thu Dung    4    Đang làm    chờ review
+450    23/04/2026    Sửa script tự động    Nguyễn Văn An    3    Chưa làm    
+451    23/04/2026    Kiểm tra backup    Võ Thu Dung    8    Chưa làm    chờ review
+452    23/04/2026    Cập nhật tài liệu HTB    Võ Thu Dung    6    Tạm dừng    chờ review
+453    24/04/2026    Rà soát log firewall    Phạm Minh Cường    1    Chưa làm    
+454    24/04/2026    Vá lỗ hổng CVE    Trần Bách Thăng    4    Chưa làm    
+455    24/04/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    3    Đang làm    
+456    24/04/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    2    Tạm dừng    
+457    25/04/2026    Vá lỗ hổng CVE    Nguyễn Văn An    1    Hoàn thành    
+458    25/04/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    3    Tạm dừng    
+459    25/04/2026    Kiểm tra backup    Đặng Hoàng Em    2    Tạm dừng    chờ review
+460    25/04/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    8    Hoàn thành    
+461    26/04/2026    Sửa script tự động    Nguyễn Văn An    6    Chưa làm    ưu tiên
+462    26/04/2026    Sửa script tự động    Phạm Minh Cường    3    Đang làm    ưu tiên
+463    26/04/2026    Sửa script tự động    Lê Thị Bình    6    Chưa làm    
+464    26/04/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    2    Đang làm    
+465    27/04/2026    Sửa script tự động    Lê Thị Bình    2    Chưa làm    
+466    27/04/2026    Đánh giá cấu hình router    Nguyễn Văn An    8    Tạm dừng    
+467    27/04/2026    Dựng lab Packet Tracer    Lê Thị Bình    6    Chưa làm    
+468    27/04/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Tạm dừng    ưu tiên
+469    28/04/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    3    Hoàn thành    
+470    28/04/2026    Đánh giá cấu hình router    Trần Bách Thăng    3    Tạm dừng    
+471    28/04/2026    Đánh giá cấu hình router    Phạm Minh Cường    2    Đang làm    chờ review
+472    28/04/2026    Rà soát log firewall    Võ Thu Dung    8    Chưa làm    
+473    29/04/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Đang làm    
+474    29/04/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    6    Đang làm    
+475    29/04/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    4    Chưa làm    ưu tiên
+476    29/04/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    2    Hoàn thành    chờ review
+477    30/04/2026    Phân tích mã độc    Phạm Minh Cường    8    Tạm dừng    ưu tiên
+478    30/04/2026    Vá lỗ hổng CVE    Nguyễn Văn An    3    Chưa làm    
+479    30/04/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Đang làm    chờ review
+480    30/04/2026    Đánh giá cấu hình router    Đặng Hoàng Em    1    Đang làm    ưu tiên
+481    01/05/2026    Phân tích mã độc    Trần Bách Thăng    4    Tạm dừng    
+482    01/05/2026    Đánh giá cấu hình router    Lê Thị Bình    1    Hoàn thành    
+483    01/05/2026    Họp nhóm kỹ thuật    Võ Thu Dung    1    Chưa làm    
+484    01/05/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    6    Tạm dừng    
+485    02/05/2026    Sửa script tự động    Phạm Minh Cường    3    Đang làm    
+486    02/05/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    8    Tạm dừng    
+487    02/05/2026    Đánh giá cấu hình router    Nguyễn Văn An    1    Chưa làm    
+488    02/05/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    2    Đang làm    chờ review
+489    03/05/2026    Vá lỗ hổng CVE    Phạm Minh Cường    4    Chưa làm    
+490    03/05/2026    Kiểm tra backup    Đặng Hoàng Em    1    Đang làm    
+491    03/05/2026    Dựng lab Packet Tracer    Lê Thị Bình    2    Hoàn thành    
+492    03/05/2026    Kiểm tra backup    Nguyễn Văn An    4    Chưa làm    
+493    04/05/2026    Rà soát log firewall    Võ Thu Dung    8    Hoàn thành    
+494    04/05/2026    Vá lỗ hổng CVE    Lê Thị Bình    8    Đang làm    
+495    04/05/2026    Vá lỗ hổng CVE    Trần Bách Thăng    4    Chưa làm    
+496    04/05/2026    Kiểm tra backup    Đặng Hoàng Em    6    Chưa làm    
+497    05/05/2026    Vá lỗ hổng CVE    Lê Thị Bình    3    Đang làm    
+498    05/05/2026    Phân tích mã độc    Phạm Minh Cường    2    Tạm dừng    chờ review
+499    05/05/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    8    Tạm dừng    chờ review
+500    05/05/2026    Vá lỗ hổng CVE    Nguyễn Văn An    2    Hoàn thành    chờ review
+501    06/05/2026    Dựng lab Packet Tracer    Võ Thu Dung    8    Chưa làm    
+502    06/05/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    1    Đang làm    chờ review
+503    06/05/2026    Sửa script tự động    Nguyễn Văn An    2    Chưa làm    chờ review
+504    06/05/2026    Dựng lab Packet Tracer    Trần Bách Thăng    8    Đang làm    chờ review
+505    07/05/2026    Dựng lab Packet Tracer    Trần Bách Thăng    6    Tạm dừng    
+506    07/05/2026    Dựng lab Packet Tracer    Nguyễn Văn An    6    Tạm dừng    ưu tiên
+507    07/05/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    6    Tạm dừng    
+508    07/05/2026    Đánh giá cấu hình router    Trần Bách Thăng    4    Chưa làm    
+509    08/05/2026    Đánh giá cấu hình router    Nguyễn Văn An    6    Hoàn thành    
+510    08/05/2026    Kiểm tra backup    Lê Thị Bình    8    Hoàn thành    chờ review
+511    08/05/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    4    Hoàn thành    
+512    08/05/2026    Kiểm tra backup    Nguyễn Văn An    2    Tạm dừng    
+513    09/05/2026    Kiểm tra backup    Phạm Minh Cường    4    Tạm dừng    
+514    09/05/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    6    Đang làm    
+515    09/05/2026    Cấu hình VLAN/switch    Nguyễn Văn An    6    Tạm dừng    chờ review
+516    09/05/2026    Phân tích mã độc    Đặng Hoàng Em    2    Hoàn thành    
+517    10/05/2026    Rà soát log firewall    Phạm Minh Cường    8    Tạm dừng    chờ review
+518    10/05/2026    Kiểm tra backup    Nguyễn Văn An    2    Tạm dừng    
+519    10/05/2026    Phân tích mã độc    Lê Thị Bình    2    Hoàn thành    
+520    10/05/2026    Vá lỗ hổng CVE    Phạm Minh Cường    6    Hoàn thành    
+521    11/05/2026    Viết báo cáo pentest    Trần Bách Thăng    1    Hoàn thành    ưu tiên
+522    11/05/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    8    Hoàn thành    
+523    11/05/2026    Đánh giá cấu hình router    Trần Bách Thăng    4    Tạm dừng    
+524    11/05/2026    Sửa script tự động    Nguyễn Văn An    1    Đang làm    chờ review
+525    12/05/2026    Rà soát log firewall    Nguyễn Văn An    8    Chưa làm    chờ review
+526    12/05/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    3    Đang làm    
+527    12/05/2026    Phân tích mã độc    Đặng Hoàng Em    6    Đang làm    ưu tiên
+528    12/05/2026    Rà soát log firewall    Lê Thị Bình    1    Đang làm    ưu tiên
+529    13/05/2026    Sửa script tự động    Phạm Minh Cường    1    Chưa làm    ưu tiên
+530    13/05/2026    Sửa script tự động    Lê Thị Bình    8    Tạm dừng    ưu tiên
+531    13/05/2026    Phân tích mã độc    Lê Thị Bình    4    Đang làm    chờ review
+532    13/05/2026    Dựng lab Packet Tracer    Nguyễn Văn An    2    Chưa làm    
+533    14/05/2026    Dựng lab Packet Tracer    Trần Bách Thăng    6    Tạm dừng    ưu tiên
+534    14/05/2026    Sửa script tự động    Võ Thu Dung    2    Tạm dừng    
+535    14/05/2026    Rà soát log firewall    Nguyễn Văn An    3    Hoàn thành    ưu tiên
+536    14/05/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    6    Đang làm    
+537    15/05/2026    Rà soát log firewall    Phạm Minh Cường    8    Hoàn thành    
+538    15/05/2026    Viết báo cáo pentest    Võ Thu Dung    8    Đang làm    ưu tiên
+539    15/05/2026    Viết báo cáo pentest    Lê Thị Bình    3    Hoàn thành    
+540    15/05/2026    Viết báo cáo pentest    Đặng Hoàng Em    1    Tạm dừng    
+541    16/05/2026    Đánh giá cấu hình router    Võ Thu Dung    8    Đang làm    ưu tiên
+542    16/05/2026    Viết báo cáo pentest    Võ Thu Dung    3    Chưa làm    ưu tiên
+543    16/05/2026    Dựng lab Packet Tracer    Võ Thu Dung    8    Chưa làm    
+544    16/05/2026    Rà soát log firewall    Lê Thị Bình    6    Tạm dừng    ưu tiên
+545    17/05/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    4    Chưa làm    
+546    17/05/2026    Cập nhật tài liệu HTB    Lê Thị Bình    4    Hoàn thành    chờ review
+547    17/05/2026    Viết báo cáo pentest    Đặng Hoàng Em    2    Hoàn thành    
+548    17/05/2026    Sửa script tự động    Võ Thu Dung    6    Tạm dừng    
+549    18/05/2026    Phân tích mã độc    Nguyễn Văn An    3    Đang làm    ưu tiên
+550    18/05/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    4    Chưa làm    
+551    18/05/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    8    Tạm dừng    ưu tiên
+552    18/05/2026    Phân tích mã độc    Đặng Hoàng Em    3    Đang làm    
+553    19/05/2026    Đánh giá cấu hình router    Võ Thu Dung    4    Đang làm    chờ review
+554    19/05/2026    Vá lỗ hổng CVE    Trần Bách Thăng    6    Hoàn thành    
+555    19/05/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Tạm dừng    
+556    19/05/2026    Vá lỗ hổng CVE    Nguyễn Văn An    1    Đang làm    
+557    20/05/2026    Viết báo cáo pentest    Võ Thu Dung    4    Chưa làm    
+558    20/05/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    8    Tạm dừng    ưu tiên
+559    20/05/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    6    Tạm dừng    
+560    20/05/2026    Kiểm thử xâm nhập web    Võ Thu Dung    8    Chưa làm    chờ review
+561    21/05/2026    Rà soát log firewall    Trần Bách Thăng    6    Tạm dừng    
+562    21/05/2026    Cấu hình VLAN/switch    Trần Bách Thăng    6    Đang làm    
+563    21/05/2026    Viết báo cáo pentest    Võ Thu Dung    6    Chưa làm    
+564    21/05/2026    Rà soát log firewall    Phạm Minh Cường    1    Chưa làm    ưu tiên
+565    22/05/2026    Dựng lab Packet Tracer    Võ Thu Dung    2    Đang làm    
+566    22/05/2026    Vá lỗ hổng CVE    Trần Bách Thăng    8    Hoàn thành    
+567    22/05/2026    Kiểm tra backup    Phạm Minh Cường    4    Tạm dừng    
+568    22/05/2026    Vá lỗ hổng CVE    Trần Bách Thăng    8    Đang làm    
+569    23/05/2026    Dựng lab Packet Tracer    Phạm Minh Cường    8    Chưa làm    chờ review
+570    23/05/2026    Cấu hình VLAN/switch    Võ Thu Dung    1    Đang làm    
+571    23/05/2026    Đánh giá cấu hình router    Võ Thu Dung    4    Chưa làm    
+572    23/05/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    3    Hoàn thành    
+573    24/05/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    2    Đang làm    ưu tiên
+574    24/05/2026    Cấu hình VLAN/switch    Lê Thị Bình    2    Đang làm    chờ review
+575    24/05/2026    Kiểm tra backup    Đặng Hoàng Em    6    Chưa làm    ưu tiên
+576    24/05/2026    Đánh giá cấu hình router    Nguyễn Văn An    8    Hoàn thành    chờ review
+577    25/05/2026    Đánh giá cấu hình router    Lê Thị Bình    1    Hoàn thành    ưu tiên
+578    25/05/2026    Viết báo cáo pentest    Trần Bách Thăng    3    Tạm dừng    
+579    25/05/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    3    Tạm dừng    ưu tiên
+580    25/05/2026    Viết báo cáo pentest    Lê Thị Bình    6    Tạm dừng    ưu tiên
+581    26/05/2026    Phân tích mã độc    Đặng Hoàng Em    6    Tạm dừng    
+582    26/05/2026    Họp nhóm kỹ thuật    Lê Thị Bình    2    Hoàn thành    
+583    26/05/2026    Rà soát log firewall    Nguyễn Văn An    4    Đang làm    ưu tiên
+584    26/05/2026    Cập nhật tài liệu HTB    Lê Thị Bình    1    Hoàn thành    
+585    27/05/2026    Rà soát log firewall    Phạm Minh Cường    3    Chưa làm    
+586    27/05/2026    Phân tích mã độc    Trần Bách Thăng    2    Tạm dừng    ưu tiên
+587    27/05/2026    Sửa script tự động    Võ Thu Dung    6    Tạm dừng    
+588    27/05/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    3    Hoàn thành    chờ review
+589    28/05/2026    Họp nhóm kỹ thuật    Lê Thị Bình    4    Hoàn thành    
+590    28/05/2026    Kiểm tra backup    Phạm Minh Cường    1    Đang làm    chờ review
+591    28/05/2026    Sửa script tự động    Nguyễn Văn An    8    Tạm dừng    
+592    28/05/2026    Phân tích mã độc    Lê Thị Bình    3    Chưa làm    ưu tiên
+593    29/05/2026    Phân tích mã độc    Trần Bách Thăng    2    Tạm dừng    
+594    29/05/2026    Kiểm tra backup    Lê Thị Bình    4    Hoàn thành    
+595    29/05/2026    Rà soát log firewall    Nguyễn Văn An    8    Tạm dừng    chờ review
+596    29/05/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    4    Hoàn thành    
+597    30/05/2026    Rà soát log firewall    Trần Bách Thăng    4    Chưa làm    chờ review
+598    30/05/2026    Kiểm tra backup    Lê Thị Bình    4    Chưa làm    ưu tiên
+599    30/05/2026    Vá lỗ hổng CVE    Võ Thu Dung    2    Chưa làm    
+600    30/05/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    2    Tạm dừng    
+601    31/05/2026    Phân tích mã độc    Phạm Minh Cường    3    Chưa làm    ưu tiên
+602    31/05/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    3    Tạm dừng    
+603    31/05/2026    Kiểm tra backup    Lê Thị Bình    1    Đang làm    chờ review
+604    31/05/2026    Sửa script tự động    Nguyễn Văn An    8    Hoàn thành    ưu tiên
+605    01/06/2026    Đánh giá cấu hình router    Nguyễn Văn An    4    Chưa làm    
+606    01/06/2026    Kiểm tra backup    Đặng Hoàng Em    4    Đang làm    
+607    01/06/2026    Viết báo cáo pentest    Lê Thị Bình    8    Đang làm    ưu tiên
+608    01/06/2026    Kiểm tra backup    Trần Bách Thăng    4    Tạm dừng    chờ review
+609    02/06/2026    Kiểm tra backup    Võ Thu Dung    6    Tạm dừng    chờ review
+610    02/06/2026    Kiểm thử xâm nhập web    Lê Thị Bình    8    Hoàn thành    
+611    02/06/2026    Viết báo cáo pentest    Đặng Hoàng Em    8    Chưa làm    
+612    02/06/2026    Vá lỗ hổng CVE    Võ Thu Dung    1    Tạm dừng    
+613    03/06/2026    Kiểm tra backup    Trần Bách Thăng    1    Hoàn thành    
+614    03/06/2026    Viết báo cáo pentest    Võ Thu Dung    8    Đang làm    ưu tiên
+615    03/06/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    4    Đang làm    
+616    03/06/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    1    Chưa làm    ưu tiên
+617    04/06/2026    Cấu hình VLAN/switch    Trần Bách Thăng    8    Đang làm    
+618    04/06/2026    Rà soát log firewall    Lê Thị Bình    4    Đang làm    chờ review
+619    04/06/2026    Dựng lab Packet Tracer    Lê Thị Bình    4    Hoàn thành    ưu tiên
+620    04/06/2026    Đánh giá cấu hình router    Đặng Hoàng Em    4    Chưa làm    
+621    05/06/2026    Rà soát log firewall    Trần Bách Thăng    8    Hoàn thành    
+622    05/06/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    1    Đang làm    
+623    05/06/2026    Sửa script tự động    Nguyễn Văn An    6    Đang làm    
+624    05/06/2026    Sửa script tự động    Phạm Minh Cường    4    Đang làm    ưu tiên
+625    06/06/2026    Vá lỗ hổng CVE    Nguyễn Văn An    2    Tạm dừng    ưu tiên
+626    06/06/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    6    Đang làm    ưu tiên
+627    06/06/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    4    Hoàn thành    
+628    06/06/2026    Viết báo cáo pentest    Lê Thị Bình    8    Hoàn thành    chờ review
+629    07/06/2026    Cấu hình VLAN/switch    Võ Thu Dung    2    Chưa làm    
+630    07/06/2026    Viết báo cáo pentest    Phạm Minh Cường    1    Chưa làm    ưu tiên
+631    07/06/2026    Sửa script tự động    Đặng Hoàng Em    3    Tạm dừng    chờ review
+632    07/06/2026    Kiểm tra backup    Võ Thu Dung    1    Chưa làm    
+633    08/06/2026    Dựng lab Packet Tracer    Võ Thu Dung    2    Chưa làm    chờ review
+634    08/06/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    8    Đang làm    
+635    08/06/2026    Cấu hình VLAN/switch    Nguyễn Văn An    3    Hoàn thành    
+636    08/06/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    2    Tạm dừng    ưu tiên
+637    09/06/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    6    Tạm dừng    ưu tiên
+638    09/06/2026    Phân tích mã độc    Phạm Minh Cường    8    Đang làm    chờ review
+639    09/06/2026    Phân tích mã độc    Phạm Minh Cường    3    Đang làm    
+640    09/06/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    6    Hoàn thành    
+641    10/06/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    2    Đang làm    ưu tiên
+642    10/06/2026    Sửa script tự động    Võ Thu Dung    8    Tạm dừng    ưu tiên
+643    10/06/2026    Vá lỗ hổng CVE    Phạm Minh Cường    4    Tạm dừng    ưu tiên
+644    10/06/2026    Phân tích mã độc    Trần Bách Thăng    6    Hoàn thành    
+645    11/06/2026    Rà soát log firewall    Trần Bách Thăng    3    Đang làm    chờ review
+646    11/06/2026    Rà soát log firewall    Nguyễn Văn An    4    Tạm dừng    chờ review
+647    11/06/2026    Sửa script tự động    Trần Bách Thăng    6    Hoàn thành    
+648    11/06/2026    Sửa script tự động    Lê Thị Bình    6    Hoàn thành    ưu tiên
+649    12/06/2026    Sửa script tự động    Nguyễn Văn An    4    Hoàn thành    
+650    12/06/2026    Rà soát log firewall    Trần Bách Thăng    4    Chưa làm    
+651    12/06/2026    Cấu hình VLAN/switch    Phạm Minh Cường    1    Đang làm    
+652    12/06/2026    Đánh giá cấu hình router    Võ Thu Dung    8    Chưa làm    chờ review
+653    13/06/2026    Vá lỗ hổng CVE    Phạm Minh Cường    2    Đang làm    
+654    13/06/2026    Viết báo cáo pentest    Trần Bách Thăng    6    Chưa làm    chờ review
+655    13/06/2026    Rà soát log firewall    Võ Thu Dung    6    Đang làm    
+656    13/06/2026    Đánh giá cấu hình router    Lê Thị Bình    3    Chưa làm    chờ review
+657    14/06/2026    Vá lỗ hổng CVE    Trần Bách Thăng    2    Tạm dừng    
+658    14/06/2026    Rà soát log firewall    Đặng Hoàng Em    2    Đang làm    
+659    14/06/2026    Phân tích mã độc    Đặng Hoàng Em    3    Đang làm    ưu tiên
+660    14/06/2026    Dựng lab Packet Tracer    Nguyễn Văn An    6    Chưa làm    ưu tiên
+661    15/06/2026    Kiểm tra backup    Phạm Minh Cường    1    Hoàn thành    ưu tiên
+662    15/06/2026    Sửa script tự động    Đặng Hoàng Em    3    Chưa làm    ưu tiên
+663    15/06/2026    Dựng lab Packet Tracer    Lê Thị Bình    6    Hoàn thành    
+664    15/06/2026    Đánh giá cấu hình router    Phạm Minh Cường    8    Chưa làm    
+665    16/06/2026    Sửa script tự động    Phạm Minh Cường    2    Tạm dừng    
+666    16/06/2026    Dựng lab Packet Tracer    Lê Thị Bình    3    Chưa làm    
+667    16/06/2026    Sửa script tự động    Võ Thu Dung    2    Tạm dừng    
+668    16/06/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Hoàn thành    ưu tiên
+669    17/06/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    2    Tạm dừng    ưu tiên
+670    17/06/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    2    Đang làm    
+671    17/06/2026    Phân tích mã độc    Lê Thị Bình    1    Chưa làm    
+672    17/06/2026    Cấu hình VLAN/switch    Lê Thị Bình    8    Đang làm    
+673    18/06/2026    Kiểm tra backup    Đặng Hoàng Em    3    Đang làm    ưu tiên
+674    18/06/2026    Vá lỗ hổng CVE    Trần Bách Thăng    8    Hoàn thành    
+675    18/06/2026    Viết báo cáo pentest    Phạm Minh Cường    1    Đang làm    chờ review
+676    18/06/2026    Viết báo cáo pentest    Võ Thu Dung    8    Tạm dừng    
+677    19/06/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    3    Hoàn thành    ưu tiên
+678    19/06/2026    Đánh giá cấu hình router    Nguyễn Văn An    4    Hoàn thành    
+679    19/06/2026    Kiểm tra backup    Trần Bách Thăng    8    Hoàn thành    
+680    19/06/2026    Cập nhật tài liệu HTB    Lê Thị Bình    3    Đang làm    ưu tiên
+681    20/06/2026    Phân tích mã độc    Đặng Hoàng Em    8    Đang làm    
+682    20/06/2026    Sửa script tự động    Võ Thu Dung    1    Đang làm    ưu tiên
+683    20/06/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    2    Đang làm    ưu tiên
+684    20/06/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    4    Đang làm    
+685    21/06/2026    Cấu hình VLAN/switch    Nguyễn Văn An    1    Tạm dừng    
+686    21/06/2026    Kiểm tra backup    Lê Thị Bình    2    Đang làm    
+687    21/06/2026    Vá lỗ hổng CVE    Trần Bách Thăng    2    Chưa làm    
+688    21/06/2026    Vá lỗ hổng CVE    Lê Thị Bình    2    Đang làm    ưu tiên
+689    22/06/2026    Rà soát log firewall    Đặng Hoàng Em    1    Đang làm    ưu tiên
+690    22/06/2026    Kiểm tra backup    Trần Bách Thăng    2    Tạm dừng    chờ review
+691    22/06/2026    Cấu hình VLAN/switch    Võ Thu Dung    1    Chưa làm    
+692    22/06/2026    Phân tích mã độc    Phạm Minh Cường    6    Tạm dừng    
+693    23/06/2026    Sửa script tự động    Đặng Hoàng Em    2    Tạm dừng    
+694    23/06/2026    Kiểm thử xâm nhập web    Võ Thu Dung    1    Hoàn thành    
+695    23/06/2026    Viết báo cáo pentest    Trần Bách Thăng    1    Tạm dừng    chờ review
+696    23/06/2026    Rà soát log firewall    Đặng Hoàng Em    8    Tạm dừng    ưu tiên
+697    24/06/2026    Đánh giá cấu hình router    Phạm Minh Cường    1    Đang làm    
+698    24/06/2026    Cấu hình VLAN/switch    Lê Thị Bình    1    Đang làm    
+699    24/06/2026    Sửa script tự động    Lê Thị Bình    4    Hoàn thành    
+700    24/06/2026    Đánh giá cấu hình router    Phạm Minh Cường    8    Đang làm    
+701    25/06/2026    Viết báo cáo pentest    Trần Bách Thăng    4    Hoàn thành    ưu tiên
+702    25/06/2026    Họp nhóm kỹ thuật    Võ Thu Dung    1    Chưa làm    
+703    25/06/2026    Cấu hình VLAN/switch    Trần Bách Thăng    8    Đang làm    
+704    25/06/2026    Phân tích mã độc    Phạm Minh Cường    3    Chưa làm    
+705    26/06/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    8    Chưa làm    
+706    26/06/2026    Kiểm thử xâm nhập web    Lê Thị Bình    4    Chưa làm    chờ review
+707    26/06/2026    Cấu hình VLAN/switch    Lê Thị Bình    8    Hoàn thành    ưu tiên
+708    26/06/2026    Dựng lab Packet Tracer    Võ Thu Dung    3    Hoàn thành    ưu tiên
+709    27/06/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    3    Đang làm    
+710    27/06/2026    Cấu hình VLAN/switch    Võ Thu Dung    8    Hoàn thành    
+711    27/06/2026    Đánh giá cấu hình router    Võ Thu Dung    1    Hoàn thành    
+712    27/06/2026    Viết báo cáo pentest    Trần Bách Thăng    4    Chưa làm    ưu tiên
+713    28/06/2026    Phân tích mã độc    Nguyễn Văn An    1    Tạm dừng    
+714    28/06/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    4    Chưa làm    
+715    28/06/2026    Cấu hình VLAN/switch    Võ Thu Dung    3    Hoàn thành    chờ review
+716    28/06/2026    Vá lỗ hổng CVE    Trần Bách Thăng    2    Đang làm    chờ review
+717    29/06/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    1    Tạm dừng    
+718    29/06/2026    Rà soát log firewall    Lê Thị Bình    1    Tạm dừng    
+719    29/06/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    3    Chưa làm    chờ review
+720    29/06/2026    Viết báo cáo pentest    Phạm Minh Cường    3    Tạm dừng    
+721    30/06/2026    Đánh giá cấu hình router    Võ Thu Dung    2    Đang làm    
+722    30/06/2026    Kiểm tra backup    Trần Bách Thăng    2    Chưa làm    
+723    30/06/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    8    Tạm dừng    
+724    30/06/2026    Cấu hình VLAN/switch    Nguyễn Văn An    6    Đang làm    ưu tiên
+725    01/07/2026    Dựng lab Packet Tracer    Trần Bách Thăng    2    Chưa làm    
+726    01/07/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    6    Tạm dừng    
+727    01/07/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    1    Hoàn thành    chờ review
+728    01/07/2026    Phân tích mã độc    Đặng Hoàng Em    4    Hoàn thành    chờ review
+729    02/07/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    4    Đang làm    
+730    02/07/2026    Rà soát log firewall    Lê Thị Bình    3    Tạm dừng    
+731    02/07/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    3    Đang làm    
+732    02/07/2026    Viết báo cáo pentest    Nguyễn Văn An    6    Hoàn thành    
+733    03/07/2026    Cấu hình VLAN/switch    Nguyễn Văn An    4    Tạm dừng    
+734    03/07/2026    Kiểm tra backup    Trần Bách Thăng    6    Chưa làm    
+735    03/07/2026    Dựng lab Packet Tracer    Lê Thị Bình    4    Chưa làm    
+736    03/07/2026    Cấu hình VLAN/switch    Nguyễn Văn An    8    Chưa làm    chờ review
+737    04/07/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    3    Đang làm    
+738    04/07/2026    Đánh giá cấu hình router    Nguyễn Văn An    3    Tạm dừng    chờ review
+739    04/07/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    3    Chưa làm    
+740    04/07/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    4    Đang làm    
+741    05/07/2026    Dựng lab Packet Tracer    Trần Bách Thăng    2    Hoàn thành    
+742    05/07/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    2    Đang làm    ưu tiên
+743    05/07/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    8    Hoàn thành    chờ review
+744    05/07/2026    Họp nhóm kỹ thuật    Lê Thị Bình    1    Hoàn thành    
+745    06/07/2026    Viết báo cáo pentest    Đặng Hoàng Em    4    Đang làm    
+746    06/07/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    1    Tạm dừng    
+747    06/07/2026    Phân tích mã độc    Võ Thu Dung    4    Tạm dừng    ưu tiên
+748    06/07/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    8    Tạm dừng    
+749    07/07/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    2    Chưa làm    
+750    07/07/2026    Dựng lab Packet Tracer    Nguyễn Văn An    1    Đang làm    
+751    07/07/2026    Dựng lab Packet Tracer    Phạm Minh Cường    6    Tạm dừng    
+752    07/07/2026    Cấu hình VLAN/switch    Lê Thị Bình    4    Đang làm    ưu tiên
+753    08/07/2026    Viết báo cáo pentest    Đặng Hoàng Em    6    Đang làm    chờ review
+754    08/07/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    8    Chưa làm    ưu tiên
+755    08/07/2026    Sửa script tự động    Phạm Minh Cường    3    Chưa làm    ưu tiên
+756    08/07/2026    Rà soát log firewall    Nguyễn Văn An    1    Chưa làm    chờ review
+757    09/07/2026    Viết báo cáo pentest    Trần Bách Thăng    3    Hoàn thành    ưu tiên
+758    09/07/2026    Sửa script tự động    Lê Thị Bình    6    Đang làm    
+759    09/07/2026    Cấu hình VLAN/switch    Nguyễn Văn An    8    Đang làm    
+760    09/07/2026    Sửa script tự động    Đặng Hoàng Em    1    Đang làm    chờ review
+761    10/07/2026    Kiểm tra backup    Lê Thị Bình    2    Đang làm    
+762    10/07/2026    Họp nhóm kỹ thuật    Lê Thị Bình    8    Chưa làm    chờ review
+763    10/07/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    8    Chưa làm    chờ review
+764    10/07/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    6    Đang làm    ưu tiên
+765    11/07/2026    Sửa script tự động    Lê Thị Bình    2    Tạm dừng    
+766    11/07/2026    Cấu hình VLAN/switch    Trần Bách Thăng    2    Đang làm    
+767    11/07/2026    Sửa script tự động    Phạm Minh Cường    1    Chưa làm    chờ review
+768    11/07/2026    Viết báo cáo pentest    Nguyễn Văn An    3    Đang làm    
+769    12/07/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    2    Đang làm    
+770    12/07/2026    Sửa script tự động    Lê Thị Bình    1    Chưa làm    ưu tiên
+771    12/07/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    3    Chưa làm    
+772    12/07/2026    Phân tích mã độc    Nguyễn Văn An    8    Tạm dừng    ưu tiên
+773    13/07/2026    Vá lỗ hổng CVE    Lê Thị Bình    2    Chưa làm    
+774    13/07/2026    Vá lỗ hổng CVE    Võ Thu Dung    2    Tạm dừng    
+775    13/07/2026    Đánh giá cấu hình router    Đặng Hoàng Em    3    Đang làm    
+776    13/07/2026    Đánh giá cấu hình router    Trần Bách Thăng    8    Tạm dừng    chờ review
+777    14/07/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    6    Chưa làm    chờ review
+778    14/07/2026    Viết báo cáo pentest    Đặng Hoàng Em    6    Hoàn thành    ưu tiên
+779    14/07/2026    Phân tích mã độc    Lê Thị Bình    8    Hoàn thành    
+780    14/07/2026    Cập nhật tài liệu HTB    Lê Thị Bình    2    Hoàn thành    
+781    15/07/2026    Dựng lab Packet Tracer    Trần Bách Thăng    3    Đang làm    
+782    15/07/2026    Đánh giá cấu hình router    Trần Bách Thăng    3    Chưa làm    
+783    15/07/2026    Đánh giá cấu hình router    Trần Bách Thăng    1    Tạm dừng    ưu tiên
+784    15/07/2026    Đánh giá cấu hình router    Phạm Minh Cường    2    Tạm dừng    ưu tiên
+785    16/07/2026    Kiểm tra backup    Lê Thị Bình    6    Tạm dừng    
+786    16/07/2026    Dựng lab Packet Tracer    Võ Thu Dung    8    Đang làm    
+787    16/07/2026    Dựng lab Packet Tracer    Trần Bách Thăng    1    Chưa làm    
+788    16/07/2026    Cập nhật tài liệu HTB    Lê Thị Bình    1    Hoàn thành    
+789    17/07/2026    Phân tích mã độc    Phạm Minh Cường    2    Hoàn thành    chờ review
+790    17/07/2026    Cấu hình VLAN/switch    Lê Thị Bình    6    Tạm dừng    
+791    17/07/2026    Kiểm tra backup    Đặng Hoàng Em    2    Tạm dừng    
+792    17/07/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    3    Đang làm    
+793    18/07/2026    Kiểm tra backup    Đặng Hoàng Em    6    Chưa làm    
+794    18/07/2026    Rà soát log firewall    Nguyễn Văn An    1    Hoàn thành    ưu tiên
+795    18/07/2026    Họp nhóm kỹ thuật    Võ Thu Dung    4    Đang làm    
+796    18/07/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    4    Hoàn thành    
+797    19/07/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    6    Tạm dừng    
+798    19/07/2026    Cấu hình VLAN/switch    Trần Bách Thăng    2    Đang làm    
+799    19/07/2026    Cấu hình VLAN/switch    Phạm Minh Cường    1    Chưa làm    ưu tiên
+800    19/07/2026    Dựng lab Packet Tracer    Phạm Minh Cường    8    Chưa làm    
+801    20/07/2026    Vá lỗ hổng CVE    Võ Thu Dung    4    Đang làm    
+802    20/07/2026    Kiểm tra backup    Lê Thị Bình    2    Tạm dừng    
+803    20/07/2026    Rà soát log firewall    Phạm Minh Cường    4    Chưa làm    
+804    20/07/2026    Rà soát log firewall    Võ Thu Dung    1    Đang làm    
+805    21/07/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    3    Tạm dừng    chờ review
+806    21/07/2026    Viết báo cáo pentest    Võ Thu Dung    1    Tạm dừng    chờ review
+807    21/07/2026    Kiểm tra backup    Võ Thu Dung    8    Tạm dừng    chờ review
+808    21/07/2026    Viết báo cáo pentest    Phạm Minh Cường    3    Hoàn thành    ưu tiên
+809    22/07/2026    Đánh giá cấu hình router    Trần Bách Thăng    6    Đang làm    
+810    22/07/2026    Dựng lab Packet Tracer    Nguyễn Văn An    2    Đang làm    
+811    22/07/2026    Phân tích mã độc    Trần Bách Thăng    4    Hoàn thành    ưu tiên
+812    22/07/2026    Viết báo cáo pentest    Đặng Hoàng Em    2    Chưa làm    
+813    23/07/2026    Đánh giá cấu hình router    Trần Bách Thăng    1    Tạm dừng    chờ review
+814    23/07/2026    Kiểm tra backup    Võ Thu Dung    3    Chưa làm    chờ review
+815    23/07/2026    Dựng lab Packet Tracer    Trần Bách Thăng    8    Tạm dừng    
+816    23/07/2026    Kiểm tra backup    Nguyễn Văn An    2    Hoàn thành    
+817    24/07/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    3    Chưa làm    ưu tiên
+818    24/07/2026    Rà soát log firewall    Phạm Minh Cường    8    Tạm dừng    chờ review
+819    24/07/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    1    Đang làm    
+820    24/07/2026    Kiểm tra backup    Nguyễn Văn An    6    Tạm dừng    
+821    25/07/2026    Kiểm tra backup    Lê Thị Bình    8    Đang làm    
+822    25/07/2026    Đánh giá cấu hình router    Phạm Minh Cường    3    Chưa làm    
+823    25/07/2026    Cập nhật tài liệu HTB    Lê Thị Bình    3    Chưa làm    ưu tiên
+824    25/07/2026    Đánh giá cấu hình router    Đặng Hoàng Em    1    Đang làm    
+825    26/07/2026    Rà soát log firewall    Đặng Hoàng Em    4    Chưa làm    
+826    26/07/2026    Đánh giá cấu hình router    Phạm Minh Cường    6    Hoàn thành    
+827    26/07/2026    Dựng lab Packet Tracer    Nguyễn Văn An    4    Tạm dừng    chờ review
+828    26/07/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    6    Đang làm    
+829    27/07/2026    Rà soát log firewall    Đặng Hoàng Em    6    Tạm dừng    
+830    27/07/2026    Sửa script tự động    Võ Thu Dung    1    Đang làm    
+831    27/07/2026    Viết báo cáo pentest    Trần Bách Thăng    2    Hoàn thành    ưu tiên
+832    27/07/2026    Kiểm thử xâm nhập web    Lê Thị Bình    8    Đang làm    
+833    28/07/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    6    Tạm dừng    
+834    28/07/2026    Vá lỗ hổng CVE    Trần Bách Thăng    2    Chưa làm    ưu tiên
+835    28/07/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    2    Tạm dừng    chờ review
+836    28/07/2026    Sửa script tự động    Lê Thị Bình    3    Đang làm    
+837    29/07/2026    Đánh giá cấu hình router    Đặng Hoàng Em    1    Chưa làm    
+838    29/07/2026    Kiểm tra backup    Trần Bách Thăng    2    Đang làm    
+839    29/07/2026    Vá lỗ hổng CVE    Nguyễn Văn An    8    Đang làm    
+840    29/07/2026    Vá lỗ hổng CVE    Phạm Minh Cường    6    Hoàn thành    
+841    30/07/2026    Dựng lab Packet Tracer    Nguyễn Văn An    8    Đang làm    chờ review
+842    30/07/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    3    Chưa làm    
+843    30/07/2026    Kiểm tra backup    Phạm Minh Cường    3    Tạm dừng    
+844    30/07/2026    Viết báo cáo pentest    Phạm Minh Cường    3    Tạm dừng    chờ review
+845    31/07/2026    Cấu hình VLAN/switch    Trần Bách Thăng    6    Chưa làm    chờ review
+846    31/07/2026    Vá lỗ hổng CVE    Võ Thu Dung    6    Chưa làm    
+847    31/07/2026    Vá lỗ hổng CVE    Trần Bách Thăng    4    Hoàn thành    
+848    31/07/2026    Rà soát log firewall    Đặng Hoàng Em    3    Chưa làm    
+849    01/08/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    8    Chưa làm    
+850    01/08/2026    Phân tích mã độc    Võ Thu Dung    2    Hoàn thành    chờ review
+851    01/08/2026    Kiểm tra backup    Đặng Hoàng Em    3    Đang làm    
+852    01/08/2026    Vá lỗ hổng CVE    Phạm Minh Cường    3    Chưa làm    ưu tiên
+853    02/08/2026    Kiểm tra backup    Phạm Minh Cường    8    Hoàn thành    chờ review
+854    02/08/2026    Đánh giá cấu hình router    Võ Thu Dung    2    Chưa làm    
+855    02/08/2026    Vá lỗ hổng CVE    Võ Thu Dung    8    Tạm dừng    
+856    02/08/2026    Sửa script tự động    Lê Thị Bình    2    Đang làm    
+857    03/08/2026    Cấu hình VLAN/switch    Phạm Minh Cường    2    Chưa làm    chờ review
+858    03/08/2026    Phân tích mã độc    Đặng Hoàng Em    3    Hoàn thành    
+859    03/08/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    8    Chưa làm    ưu tiên
+860    03/08/2026    Cập nhật tài liệu HTB    Lê Thị Bình    3    Chưa làm    ưu tiên
+861    04/08/2026    Cấu hình VLAN/switch    Phạm Minh Cường    1    Hoàn thành    ưu tiên
+862    04/08/2026    Viết báo cáo pentest    Võ Thu Dung    1    Tạm dừng    chờ review
+863    04/08/2026    Rà soát log firewall    Phạm Minh Cường    1    Đang làm    
+864    04/08/2026    Viết báo cáo pentest    Lê Thị Bình    4    Tạm dừng    
+865    05/08/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    2    Hoàn thành    ưu tiên
+866    05/08/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    2    Chưa làm    
+867    05/08/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    3    Đang làm    
+868    05/08/2026    Họp nhóm kỹ thuật    Nguyễn Văn An    4    Hoàn thành    
+869    06/08/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    8    Tạm dừng    ưu tiên
+870    06/08/2026    Kiểm tra backup    Phạm Minh Cường    4    Hoàn thành    
+871    06/08/2026    Sửa script tự động    Nguyễn Văn An    8    Chưa làm    
+872    06/08/2026    Cập nhật tài liệu HTB    Võ Thu Dung    2    Hoàn thành    
+873    07/08/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    2    Đang làm    
+874    07/08/2026    Rà soát log firewall    Nguyễn Văn An    1    Tạm dừng    chờ review
+875    07/08/2026    Họp nhóm kỹ thuật    Lê Thị Bình    2    Hoàn thành    
+876    07/08/2026    Rà soát log firewall    Lê Thị Bình    4    Chưa làm    ưu tiên
+877    08/08/2026    Vá lỗ hổng CVE    Nguyễn Văn An    3    Tạm dừng    
+878    08/08/2026    Viết báo cáo pentest    Nguyễn Văn An    4    Hoàn thành    
+879    08/08/2026    Viết báo cáo pentest    Đặng Hoàng Em    2    Đang làm    
+880    08/08/2026    Họp nhóm kỹ thuật    Võ Thu Dung    2    Hoàn thành    
+881    09/08/2026    Đánh giá cấu hình router    Đặng Hoàng Em    1    Tạm dừng    
+882    09/08/2026    Sửa script tự động    Võ Thu Dung    1    Hoàn thành    
+883    09/08/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Hoàn thành    ưu tiên
+884    09/08/2026    Dựng lab Packet Tracer    Phạm Minh Cường    1    Chưa làm    ưu tiên
+885    10/08/2026    Đánh giá cấu hình router    Nguyễn Văn An    2    Hoàn thành    
+886    10/08/2026    Kiểm tra backup    Đặng Hoàng Em    1    Chưa làm    chờ review
+887    10/08/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    2    Tạm dừng    
+888    10/08/2026    Sửa script tự động    Đặng Hoàng Em    6    Hoàn thành    
+889    11/08/2026    Cấu hình VLAN/switch    Trần Bách Thăng    4    Đang làm    chờ review
+890    11/08/2026    Viết báo cáo pentest    Lê Thị Bình    6    Đang làm    
+891    11/08/2026    Đánh giá cấu hình router    Phạm Minh Cường    3    Đang làm    
+892    11/08/2026    Sửa script tự động    Phạm Minh Cường    2    Tạm dừng    
+893    12/08/2026    Viết báo cáo pentest    Trần Bách Thăng    1    Hoàn thành    
+894    12/08/2026    Họp nhóm kỹ thuật    Đặng Hoàng Em    4    Đang làm    
+895    12/08/2026    Sửa script tự động    Trần Bách Thăng    8    Hoàn thành    
+896    12/08/2026    Vá lỗ hổng CVE    Nguyễn Văn An    4    Chưa làm    
+897    13/08/2026    Dựng lab Packet Tracer    Trần Bách Thăng    1    Đang làm    
+898    13/08/2026    Rà soát log firewall    Lê Thị Bình    8    Chưa làm    ưu tiên
+899    13/08/2026    Đánh giá cấu hình router    Trần Bách Thăng    1    Hoàn thành    
+900    13/08/2026    Phân tích mã độc    Đặng Hoàng Em    8    Đang làm    
+901    14/08/2026    Cập nhật tài liệu HTB    Phạm Minh Cường    6    Chưa làm    
+902    14/08/2026    Cập nhật tài liệu HTB    Lê Thị Bình    2    Hoàn thành    ưu tiên
+903    14/08/2026    Kiểm tra backup    Phạm Minh Cường    3    Tạm dừng    ưu tiên
+904    14/08/2026    Kiểm tra backup    Đặng Hoàng Em    2    Hoàn thành    
+905    15/08/2026    Đánh giá cấu hình router    Đặng Hoàng Em    1    Đang làm    
+906    15/08/2026    Kiểm tra backup    Võ Thu Dung    4    Tạm dừng    
+907    15/08/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    3    Hoàn thành    
+908    15/08/2026    Dựng lab Packet Tracer    Phạm Minh Cường    1    Tạm dừng    ưu tiên
+909    16/08/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    3    Chưa làm    
+910    16/08/2026    Đánh giá cấu hình router    Đặng Hoàng Em    6    Đang làm    
+911    16/08/2026    Sửa script tự động    Võ Thu Dung    8    Hoàn thành    ưu tiên
+912    16/08/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    2    Tạm dừng    
+913    17/08/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    8    Tạm dừng    
+914    17/08/2026    Sửa script tự động    Võ Thu Dung    1    Hoàn thành    
+915    17/08/2026    Sửa script tự động    Phạm Minh Cường    4    Đang làm    
+916    17/08/2026    Dựng lab Packet Tracer    Lê Thị Bình    2    Chưa làm    
+917    18/08/2026    Kiểm thử xâm nhập web    Võ Thu Dung    2    Tạm dừng    ưu tiên
+918    18/08/2026    Viết báo cáo pentest    Trần Bách Thăng    4    Tạm dừng    chờ review
+919    18/08/2026    Dựng lab Packet Tracer    Trần Bách Thăng    4    Tạm dừng    
+920    18/08/2026    Cấu hình VLAN/switch    Phạm Minh Cường    8    Hoàn thành    
+921    19/08/2026    Kiểm tra backup    Phạm Minh Cường    1    Hoàn thành    
+922    19/08/2026    Họp nhóm kỹ thuật    Võ Thu Dung    8    Chưa làm    chờ review
+923    19/08/2026    Sửa script tự động    Nguyễn Văn An    8    Tạm dừng    
+924    19/08/2026    Cập nhật tài liệu HTB    Trần Bách Thăng    2    Tạm dừng    
+925    20/08/2026    Sửa script tự động    Võ Thu Dung    6    Tạm dừng    
+926    20/08/2026    Đánh giá cấu hình router    Phạm Minh Cường    1    Hoàn thành    
+927    20/08/2026    Kiểm thử xâm nhập web    Lê Thị Bình    3    Chưa làm    chờ review
+928    20/08/2026    Sửa script tự động    Lê Thị Bình    8    Hoàn thành    
+929    21/08/2026    Phân tích mã độc    Phạm Minh Cường    2    Tạm dừng    
+930    21/08/2026    Rà soát log firewall    Võ Thu Dung    2    Đang làm    
+931    21/08/2026    Kiểm tra backup    Nguyễn Văn An    4    Đang làm    
+932    21/08/2026    Cấu hình VLAN/switch    Phạm Minh Cường    1    Hoàn thành    ưu tiên
+933    22/08/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    6    Đang làm    ưu tiên
+934    22/08/2026    Kiểm thử xâm nhập web    Võ Thu Dung    8    Hoàn thành    chờ review
+935    22/08/2026    Kiểm tra backup    Võ Thu Dung    4    Đang làm    chờ review
+936    22/08/2026    Phân tích mã độc    Đặng Hoàng Em    2    Hoàn thành    ưu tiên
+937    23/08/2026    Vá lỗ hổng CVE    Võ Thu Dung    6    Chưa làm    chờ review
+938    23/08/2026    Kiểm tra backup    Phạm Minh Cường    6    Đang làm    
+939    23/08/2026    Kiểm tra backup    Lê Thị Bình    3    Tạm dừng    
+940    23/08/2026    Phân tích mã độc    Phạm Minh Cường    6    Chưa làm    chờ review
+941    24/08/2026    Cập nhật tài liệu HTB    Đặng Hoàng Em    8    Đang làm    
+942    24/08/2026    Viết báo cáo pentest    Võ Thu Dung    8    Chưa làm    
+943    24/08/2026    Vá lỗ hổng CVE    Nguyễn Văn An    8    Đang làm    chờ review
+944    24/08/2026    Sửa script tự động    Đặng Hoàng Em    8    Chưa làm    
+945    25/08/2026    Cập nhật tài liệu HTB    Võ Thu Dung    4    Tạm dừng    chờ review
+946    25/08/2026    Rà soát log firewall    Phạm Minh Cường    1    Hoàn thành    
+947    25/08/2026    Kiểm tra backup    Nguyễn Văn An    1    Hoàn thành    
+948    25/08/2026    Rà soát log firewall    Nguyễn Văn An    3    Chưa làm    
+949    26/08/2026    Kiểm thử xâm nhập web    Đặng Hoàng Em    3    Đang làm    chờ review
+950    26/08/2026    Kiểm thử xâm nhập web    Lê Thị Bình    4    Hoàn thành    chờ review
+951    26/08/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    6    Đang làm    chờ review
+952    26/08/2026    Kiểm tra backup    Nguyễn Văn An    6    Chưa làm    
+953    27/08/2026    Kiểm tra backup    Phạm Minh Cường    4    Chưa làm    chờ review
+954    27/08/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    8    Chưa làm    
+955    27/08/2026    Họp nhóm kỹ thuật    Phạm Minh Cường    2    Chưa làm    chờ review
+956    27/08/2026    Sửa script tự động    Đặng Hoàng Em    6    Đang làm    
+957    28/08/2026    Rà soát log firewall    Phạm Minh Cường    2    Hoàn thành    
+958    28/08/2026    Phân tích mã độc    Đặng Hoàng Em    6    Hoàn thành    ưu tiên
+959    28/08/2026    Kiểm thử xâm nhập web    Phạm Minh Cường    3    Chưa làm    
+960    28/08/2026    Phân tích mã độc    Võ Thu Dung    3    Hoàn thành    
+961    29/08/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    2    Hoàn thành    
+962    29/08/2026    Cập nhật tài liệu HTB    Võ Thu Dung    1    Chưa làm    ưu tiên
+963    29/08/2026    Họp nhóm kỹ thuật    Võ Thu Dung    3    Hoàn thành    
+964    29/08/2026    Sửa script tự động    Nguyễn Văn An    2    Hoàn thành    chờ review
+965    30/08/2026    Phân tích mã độc    Phạm Minh Cường    6    Tạm dừng    
+966    30/08/2026    Cập nhật tài liệu HTB    Nguyễn Văn An    2    Chưa làm    
+967    30/08/2026    Cập nhật tài liệu HTB    Lê Thị Bình    2    Tạm dừng    chờ review
+968    30/08/2026    Vá lỗ hổng CVE    Trần Bách Thăng    1    Chưa làm    ưu tiên
+969    31/08/2026    Viết báo cáo pentest    Đặng Hoàng Em    6    Đang làm    
+970    31/08/2026    Vá lỗ hổng CVE    Lê Thị Bình    4    Hoàn thành    ưu tiên
+971    31/08/2026    Rà soát log firewall    Võ Thu Dung    8    Chưa làm    
+972    31/08/2026    Sửa script tự động    Lê Thị Bình    6    Tạm dừng    ưu tiên
+973    01/09/2026    Kiểm thử xâm nhập web    Lê Thị Bình    8    Đang làm    
+974    01/09/2026    Sửa script tự động    Trần Bách Thăng    1    Đang làm    chờ review
+975    01/09/2026    Sửa script tự động    Trần Bách Thăng    8    Hoàn thành    
+976    01/09/2026    Vá lỗ hổng CVE    Đặng Hoàng Em    2    Tạm dừng    
+977    02/09/2026    Viết báo cáo pentest    Võ Thu Dung    8    Tạm dừng    
+978    02/09/2026    Đánh giá cấu hình router    Đặng Hoàng Em    2    Hoàn thành    ưu tiên
+979    02/09/2026    Đánh giá cấu hình router    Lê Thị Bình    1    Hoàn thành    
+980    02/09/2026    Kiểm thử xâm nhập web    Nguyễn Văn An    3    Hoàn thành    chờ review
+981    03/09/2026    Viết báo cáo pentest    Lê Thị Bình    4    Tạm dừng    ưu tiên
+982    03/09/2026    Vá lỗ hổng CVE    Phạm Minh Cường    4    Chưa làm    
+983    03/09/2026    Kiểm tra backup    Đặng Hoàng Em    1    Hoàn thành    chờ review
+984    03/09/2026    Cấu hình VLAN/switch    Đặng Hoàng Em    6    Hoàn thành    
+985    04/09/2026    Cập nhật tài liệu HTB    Võ Thu Dung    1    Chưa làm    
+986    04/09/2026    Họp nhóm kỹ thuật    Trần Bách Thăng    3    Tạm dừng    ưu tiên
+987    04/09/2026    Kiểm tra backup    Đặng Hoàng Em    1    Tạm dừng    
+988    04/09/2026    Sửa script tự động    Nguyễn Văn An    2    Tạm dừng    chờ review
+989    05/09/2026    Rà soát log firewall    Đặng Hoàng Em    2    Chưa làm    
+990    05/09/2026    Kiểm thử xâm nhập web    Võ Thu Dung    6    Đang làm    
+991    05/09/2026    Kiểm thử xâm nhập web    Trần Bách Thăng    6    Tạm dừng    chờ review
+992    05/09/2026    Sửa script tự động    Trần Bách Thăng    3    Đang làm    
+993    06/09/2026    Viết báo cáo pentest    Phạm Minh Cường    8    Đang làm    
+994    06/09/2026    Phân tích mã độc    Nguyễn Văn An    6    Chưa làm    
+995    06/09/2026    Cấu hình VLAN/switch    Nguyễn Văn An    8    Hoàn thành    chờ review
+996    06/09/2026    Dựng lab Packet Tracer    Đặng Hoàng Em    6    Hoàn thành    
+997    07/09/2026    Vá lỗ hổng CVE    Trần Bách Thăng    3    Hoàn thành    
+998    07/09/2026    Đánh giá cấu hình router    Võ Thu Dung    4    Chưa làm    
+999    07/09/2026    Phân tích mã độc    Đặng Hoàng Em    8    Đang làm    
+1000    07/09/2026    Rà soát log firewall    Võ Thu Dung    1    Đang làm
