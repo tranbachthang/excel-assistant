@@ -14,3 +14,7 @@ models-store.json
 data/
 *.xlsx
 *.xls
+*.exe
+build/
+dist/
+*.spec

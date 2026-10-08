@@ -26,6 +26,22 @@ chuyển đổi CSV ↔ XLSX, tối ưu dung lượng. Ưu tiên giữ nguyên f
 Dùng skill `excel-manager` (script `skills/excel-manager/scripts/excel_assistant.py`).
 Yêu cầu: `pip install openpyxl`.
 
+## Pipeline 5 agent (cho việc nhiều bước)
+
+Repo có sẵn 5 agent trong `.pi/agents/` (project scope). Gọi bằng tool `subagent` với **`agentScope: "both"`**.
+
+| Chặng | Agent | Việc |
+|---|---|---|
+| P1 | `excel-planner` | đọc file → kế hoạch (ô nào, dữ liệu từ đâu) |
+| P2 | `excel-critic` | chấm kế hoạch **≥8/10**, <8 trả lại P1 |
+| P3 | `excel-worker` | chạy script |
+| P3' | `excel-critic` | thanh tra đột xuất: bịa dữ liệu? mất form? |
+| P4 | `excel-verifier` | đọc lại file, chấm **≥8/10** |
+
+**Phân tầng:** S (đọc 1 file, sửa 1 ô) làm thẳng · M (điền form, format) P1→P4 · L (chấm công cả tháng, nhiều sheet) đủ P0→P4.
+
+Lịch sử: mỗi agent ghi 1 dòng vào `.pi/agents/MEMORY.md`.
+
 ## Quy trình nhanh (ẢNH → Excel)
 
 Đọc `QUY_TRINH_NHANH.md` trước khi làm. Tóm tắt:

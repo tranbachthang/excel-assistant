@@ -1,3 +1,6 @@
 {
-  "skills": ["skills"]
+  "skills": [
+    "skills"
+  ],
+  "lastChangelogVersion": "0.99.1"
 }

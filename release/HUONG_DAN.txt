@@ -1,0 +1,52 @@
+========================================================
+  CONG CU QUAN LY EXCEL  -  HUONG DAN SU DUNG
+========================================================
+
+File: CongCuExcel.exe  (1 file duy nhat, khong can cai gi khac)
+
+--------------------------------------------------------
+CACH CHAY
+--------------------------------------------------------
+1. Copy file CongCuExcel.exe vao may (Desktop hoac thu muc nao cung duoc).
+2. Nhap doi chuot (double-click) vao CongCuExcel.exe.
+   - Lan dau Windows co the hien "Windows protected your PC":
+     bam "More info" -> "Run anyway". (vi file chua co chu ky so)
+3. Menu hien ra, go SO roi Enter:
+     1 = Xu ly cham cong
+     2 = Theo doi kho
+     3 = Xem noi dung file Excel
+     0 = Thoat
+
+--------------------------------------------------------
+CHUC NANG 1 - XU LY CHAM CONG
+--------------------------------------------------------
+- "File cham cong (raw)": go duong dan file, hoac nhan Enter
+  de mo HOP THOAI chon file (de hon).
+- "Ma nhan vien": go ma (vd 741046) hoac Enter = xu ly tat ca.
+- "Tu ngay / Den ngay": Enter = tu dong (bo qua cung duoc).
+- Ket qua luu thanh file <ten>_da_xu_ly.xlsx (khong sua file goc).
+- Trong file ket qua:
+    + Mau VANG  = quen cham cong (thieu gio vao hoac ra)
+    + Mau DO    = khong cham cong (khong di lam)
+    + Dong TONG = tong gio + tong phut ca thang
+
+--------------------------------------------------------
+CHUC NANG 2 - THEO DOI KHO
+--------------------------------------------------------
+- "File theo doi kho": go duong dan hoac nhan Enter de chon file.
+- "Tao den ngay": go ngay (vd 30/09/2026) hoac Enter = them 1 ngay.
+- Tu dong tao cac sheet ngay, noi ton kho ngay truoc sang ngay sau.
+
+--------------------------------------------------------
+LUU Y
+--------------------------------------------------------
+- Chi can 1 file CongCuExcel.exe, gui qua Zalo/USB cho may khac
+  la chay duoc ngay, KHONG can cai Python hay bat cu thu gi.
+- File goc khong bi sua (tru chuc nang kho ghi de file goc).
+- Neu can sua loi / them tinh nang, lien he Thang.
+
+--------------------------------------------------------
+  CONG CU AI (tro ly doc/ghi file Excel bang tieng Viet)
+--------------------------------------------------------
+Xem file HUONG_DAN_CAI_AI_AGENT.md trong cung thu muc.
+Tom tat: cai 1 lan bang CaiDat.bat, sau do double-click ChayAI.bat.

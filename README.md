@@ -79,6 +79,20 @@ python scripts/excel_assistant.py fill template.xlsx data.json filled.xlsx
 > Điền form từ **ảnh**: dùng skill `image-reader` (OCR) lấy text + toạ độ, suy bố cục, rồi `fill`.
 > Có file `.xlsx` gốc thì khớp 100%; chỉ có ảnh thì form dựng lại tương đương (không khớp pixel).
 
+## 4b. Pipeline chất lượng (5 agent)
+
+Repo có 5 agent trong `.pi/agents/` để giữ chất lượng khi việc nhiều bước:
+
+```
+excel-planner → excel-critic (≥8/10) → excel-worker → excel-verifier (≥8/10)
+```
+
+- **Không bịa dữ liệu**: `excel-critic` chấm 0 điểm mục "đúng dữ liệu" nếu có giá trị đoán.
+- **Giữ form**: kiểm merge/màu/công thức còn nguyên.
+- **Bắt buộc verify**: `excel-verifier` đọc lại file thật trước khi báo xong.
+- Phân tầng: việc nhỏ (đọc 1 file/sửa 1 ô) làm thẳng; việc vừa/lớn mới chạy pipeline.
+- Gọi agent: tool `subagent` với `agentScope: "both"`. Lịch sử: `.pi/agents/MEMORY.md`.
+
 ## 5. Ví dụ có sẵn (`examples/`)
 
 | File | Là gì |
@@ -93,7 +107,9 @@ python scripts/excel_assistant.py fill template.xlsx data.json filled.xlsx
 ```text
 excel-assistant/
 ├── run.cmd / run.sh                 # chạy như Pi riêng (set PI_CODING_AGENT_DIR)
-├── AGENTS.md                        # persona của agent
+├── AGENTS.md                        # persona + pipeline agent
+├── .pi/agents/                      # 5 agent Excel (planner/critic/worker/verifier/orchestrator)
+├── extensions/subagent/             # tool `subagent` để gọi các agent trên
 ├── settings.json                    # config dir (skills)
 ├── package.json                     # manifest cho `pi install`
 ├── skills/excel-manager/

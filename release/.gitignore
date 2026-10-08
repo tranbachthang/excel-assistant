@@ -1,0 +1,8 @@
+# File do Pi tu sinh khi chay - KHONG dong goi vao ban gui di
+auth.json
+models-store.json
+sessions/
+*.log
+__pycache__/
+*.pyc
+~$*.xlsx
