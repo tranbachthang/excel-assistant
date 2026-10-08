@@ -3,3 +3,9 @@ __pycache__/
 *.~lock.*
 ~$*.xlsx
 .venv/
+node_modules/
+auth.json
+sessions/
+*.log
+.DS_Store
+models-store.json

@@ -1,68 +1,107 @@
-# excel-assistant
+# excel-assistant 🐍📊
 
-**AI agent quản lý Excel** — đọc / tạo / **điền dữ liệu vào form mẫu** / format hàng loạt / tối ưu `.xlsx`.
-Đóng gói dưới dạng **pi package**: cài một lệnh là Pi trở thành trợ lý Excel.
-
+**Một con Pi riêng, chỉ để quản lý Excel.** Đọc · tạo · **điền dữ liệu vào form mẫu** · format · tối ưu `.xlsx`.
 Chỉ cần Python + `openpyxl`, **không cần Microsoft Excel**.
 
-## Cài như một AI agent (pi package)
+Repo này vừa là **pi package** (cài vào Pi có sẵn), vừa là **agent dir độc lập** (chạy như một Pi riêng).
+
+---
+
+## 1. Lấy về
 
 ```bash
+git clone https://github.com/tranbachthang/excel-assistant.git
+cd excel-assistant
 pip install openpyxl
+```
+
+## 2. Cách sử dụng
+
+### (A) Chạy như một con Pi riêng (khuyến nghị)
+
+```bash
+# Windows
+run.cmd
+
+# Git Bash / Linux / macOS
+./run.sh
+```
+
+Launcher tự đặt `PI_CODING_AGENT_DIR` = thư mục repo → Pi nạp `AGENTS.md` (persona) + skill `excel-manager`, **tách khỏi cấu hình Pi cá nhân**.
+
+Lần đầu cần key (xem mục 3). Sau đó vào Pi và ra lệnh bằng tiếng Việt:
+
+> đọc `examples/cong_viec_template.xlsx`, điền công việc hôm nay rồi xuất `ketqua.xlsx`
+
+Hoặc gọi thẳng skill: `/skill:excel-manager tối ưu file big.xlsx`
+
+### (B) Cài vào Pi đang dùng (không tách)
+
+```bash
 pi install git:github.com/tranbachthang/excel-assistant
 ```
 
-Sau đó trong Pi, agent tự biết skill `excel-manager` và nhận việc Excel bằng tiếng Việt:
-
-> "đọc form.xlsx, điền tên và ngày vào rồi xuất ketqua.xlsx"
-
-Hoặc gọi thẳng skill:
-
-```text
-/skill:excel-manager tối ưu file big.xlsx
-```
-
-### Chạy như agent riêng (nhẹ, tách khỏi cấu hình Pi cá nhân)
-
-```bash
-PI_CODING_AGENT_DIR=$(pwd) pi
-```
-
-Pi nạp `AGENTS.md` (persona) + skill trong repo → một agent chỉ chuyên Excel.
-
-## Dùng trực tiếp (không cần AI)
+### (C) Dùng trực tiếp, không cần AI
 
 ```bash
 cd skills/excel-manager
-python scripts/excel_assistant.py info    book.xlsx
-python scripts/excel_assistant.py read    book.xlsx --head 10
+python scripts/excel_assistant.py info    ../../examples/cong_viec_template.xlsx
+python scripts/excel_assistant.py read    ../../examples/cong_viec_1000.xlsx --head 5
 python scripts/excel_assistant.py csv2xlsx data.csv out.xlsx
-python scripts/excel_assistant.py xlsx2csv book.xlsx out.csv
 python scripts/excel_assistant.py beautify book.xlsx
 python scripts/excel_assistant.py fill    template.xlsx data.json filled.xlsx
 python scripts/excel_assistant.py optimize big.xlsx small.xlsx
-python scripts/excel_assistant.py demo                      # SELFTEST PASS
+python scripts/excel_assistant.py demo                       # SELFTEST PASS
 ```
 
-### Điền form
+## 3. Nhập API key (lần đầu)
 
-Giữ nguyên form mẫu (merge, màu, công thức) và chỉ điền giá trị vào ô:
+Vào Pi rồi gõ `/login` → chọn provider (vd `deepseek`) → dán key. Key lưu ở `auth.json` **trong thư mục repo** (đã `.gitignore`, không bị push).
+
+Hoặc dùng biến môi trường (không lưu file):
+```bash
+DEEPSEEK_API_KEY=sk-... ./run.sh      # DeepSeek
+OPENAI_API_KEY=sk-...   ./run.sh      # OpenAI
+```
+
+## 4. Điền form
+
+Giữ nguyên form mẫu (merge ô, màu, công thức) và chỉ điền giá trị vào ô cần thiết:
 
 ```json
 { "Sheet1": { "B2": "Tran Bach Thang", "B3": "07/10/2026", "C5": 4 } }
 ```
 
-## Cấu trúc
+```bash
+python scripts/excel_assistant.py fill template.xlsx data.json filled.xlsx
+```
+
+> Điền form từ **ảnh**: dùng skill `image-reader` (OCR) lấy text + toạ độ, suy bố cục, rồi `fill`.
+> Có file `.xlsx` gốc thì khớp 100%; chỉ có ảnh thì form dựng lại tương đương (không khớp pixel).
+
+## 5. Ví dụ có sẵn (`examples/`)
+
+| File | Là gì |
+|---|---|
+| `cong_viec_template.xlsx` | Form mẫu "Bảng theo dõi công việc tuần" |
+| `cong_viec_data.json` | Dữ liệu mock để test điền |
+| `cong_viec_filled.xlsx` | Kết quả điền thử |
+| `cong_viec_1000.xlsx` | Bảng **1000 dòng** để test hiệu năng |
+
+## 6. Cấu trúc
 
 ```text
 excel-assistant/
-├── package.json            # pi package manifest
-├── AGENTS.md               # persona của agent
+├── run.cmd / run.sh                 # chạy như Pi riêng (set PI_CODING_AGENT_DIR)
+├── AGENTS.md                        # persona của agent
+├── settings.json                    # config dir (skills)
+├── package.json                     # manifest cho `pi install`
 ├── skills/excel-manager/
-│   ├── SKILL.md            # playbook: điền form, điền từ ảnh, tối ưu
+│   ├── SKILL.md                     # playbook
 │   └── scripts/excel_assistant.py
+├── examples/
 ├── requirements.txt
-└── LICENSE
+└── LICENSE (MIT)
 ```
 
 ## Phạm vi
@@ -71,7 +110,7 @@ excel-assistant/
 |---|---|
 | Đọc/ghi `.xlsx`, nhiều sheet | Tính lại công thức (openpyxl không tính) |
 | Điền giá trị theo địa chỉ ô (giữ form) | Macro VBA |
-| Điền từ ảnh qua OCR (dùng skill `image-reader`) | File `.xls` cũ → đổi `.xlsx` trước |
+| Điền từ ảnh qua OCR | File `.xls` cũ → đổi `.xlsx` trước |
 | Format bảng, CSV ↔ XLSX, tối ưu dung lượng | |
 
 MIT License.
