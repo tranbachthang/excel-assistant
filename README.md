@@ -12,22 +12,23 @@ Repo này vừa là **pi package** (cài vào Pi có sẵn), vừa là **agent d
 ```bash
 git clone https://github.com/tranbachthang/excel-assistant.git
 cd excel-assistant
-pip install openpyxl
 ```
 
 ## 2. Cách sử dụng
 
-### (A) Chạy như một con Pi riêng (khuyến nghị)
+### Lần đầu: cài đặt (1 lần duy nhất)
 
-```bash
-# Windows
-run.cmd
-
-# Git Bash / Linux / macOS
-./run.sh
+```cmd
+CaiDat.bat
 ```
+Cài Node.js + Git + Python + `openpyxl` + OCR (RapidOCR) + Pi. (~5 phút, cần mạng.)
 
-Launcher tự đặt `PI_CODING_AGENT_DIR` = thư mục repo → Pi nạp `AGENTS.md` (persona) + skill `excel-manager`, **tách khỏi cấu hình Pi cá nhân**.
+### Mở trợ lý AI
+
+```cmd
+ChayAI.bat
+```
+`ChayAI.bat` tự đặt `PI_CODING_AGENT_DIR` = thư mục repo → Pi nạp `AGENTS.md` (persona) + 5 agent (`.pi/agents/`) + skill `excel-manager`, **tách khỏi cấu hình Pi cá nhân**.
 
 Lần đầu cần key (xem mục 3). Sau đó vào Pi và ra lệnh bằng tiếng Việt:
 
@@ -58,10 +59,10 @@ python scripts/excel_assistant.py demo                       # SELFTEST PASS
 
 Vào Pi rồi gõ `/login` → chọn provider (vd `deepseek`) → dán key. Key lưu ở `auth.json` **trong thư mục repo** (đã `.gitignore`, không bị push).
 
-Hoặc dùng biến môi trường (không lưu file):
-```bash
-DEEPSEEK_API_KEY=sk-... ./run.sh      # DeepSeek
-OPENAI_API_KEY=sk-...   ./run.sh      # OpenAI
+Hoặc dùng biến môi trường (không lưu file) — mở cmd rồi:
+```cmd
+set DEEPSEEK_API_KEY=sk-...
+ChayAI.bat
 ```
 
 ## 4. Điền form
@@ -106,7 +107,7 @@ excel-planner → excel-critic (≥8/10) → excel-worker → excel-verifier (�
 
 ```text
 excel-assistant/
-├── run.cmd / run.sh                 # chạy như Pi riêng (set PI_CODING_AGENT_DIR)
+├── CaiDat.bat / ChayAI.bat           # cài đặt 1 lần + mở trợ lý (set PI_CODING_AGENT_DIR)
 ├── AGENTS.md                        # persona + pipeline agent
 ├── .pi/agents/                      # 5 agent Excel (planner/critic/worker/verifier/orchestrator)
 ├── extensions/subagent/             # tool `subagent` để gọi các agent trên
